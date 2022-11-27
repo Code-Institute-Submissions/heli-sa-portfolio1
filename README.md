@@ -6,8 +6,27 @@ This website is for everybody who likes exploring around, who does not afraid to
 
 Contents:
 
-Fonts and icons-
-<https://fonts.google.com>
+Choice of Colours:
+Blue,White, Black - Estonian Flag
+Blue- represents the clear peaceful sky,
+White- represents the peace on the country,
+Black-  represents the land what feed us.
 
+Fonts and icons-
+https://fonts.google.com
+https://fontawesome.com
 Free Images-
 personal collection and <https://stock.adobe.com>
+
+Reference Content
+
+Weather and livecams
+https://www.meteoblue.com/en/weather/webcams/kuressaare_estonia_590939
+https://www.skylinewebcams.com/en/webcam/estonia/saaremaa/kuressaare/deer-cam.html
+
+Reference Coding
+https://www.w3schools.com/css/tryit.asp?filename=trycss_image_text_top_right
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_vertical_menu
+
+Notes/Todo:
+Update README with Markdown

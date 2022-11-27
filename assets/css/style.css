@@ -16,10 +16,17 @@ body {
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: capitalize;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
     color:blue;
 }
 
+h3 {
+    font-family: Oswald, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    color:brown;
+
+}
 #logo {
         float: left;
         font-size: 300%;
@@ -43,7 +50,32 @@ h1, h2 {
 .active {
     border-bottom: 1px solid;
 }     
+.road {
+    position: absolute;
 
+    
+}
+
+.vertical-menu {
+    width: 200px;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
 
 
 
