@@ -26,7 +26,10 @@ https://www.skylinewebcams.com/en/webcam/estonia/saaremaa/kuressaare/deer-cam.ht
 
 Reference Coding
 https://www.w3schools.com/css/tryit.asp?filename=trycss_image_text_top_right
+https://www.w3schools.com/css/tryit.asp?filename=trycss_image_text_top_left
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_vertical_menu
+https://www.jotform.com/blog/20-code-snippets-contact-forms-98615/
+https://www.w3schools.com/howto/howto_css_contact_form.asp
 
 Notes/Todo:
 Update README with Markdown
