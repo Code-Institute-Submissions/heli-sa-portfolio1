@@ -63,21 +63,10 @@ h1, h2 {
   position: relative;
 }
 
-#saaremaal {
+#saaremaa {
   height: 600px;
   width: 100%;
   background: url('../images/saaremaa.jpg') no-repeat center center;
   
-}
-
-/* zoom for saaremaa image*/
-
-@keyframes cover-zoom {
-  from {
-      transform: scale(1);
-  }
-to {
-  transform: scale(1.2);
-  }
 }
 
