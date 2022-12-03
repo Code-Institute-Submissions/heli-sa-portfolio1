@@ -8,7 +8,7 @@
 body {
     font-weight: 300;   
     font-family: 'Lato', sans-serif;
-    color:black;
+    color:rgb(17, 16, 16);
     
 }
 /*heading and logo*/
@@ -22,13 +22,13 @@ h1, h2 {
 
 #logo {
         float: left;
-        font-size: 400%;
-
-        
+        font-size: 600%;
 }
+
 #menu {
         font-size: 110%;
         letter-spacing: 6px;
+        color:bisque
 }
 #menu, #logo {
     line-height: 150px;       
@@ -47,23 +47,31 @@ h1, h2 {
 
 /*saaremaa-image*/
 
-#cover {
-    height: 600%;
-    width: 100%;
-    overflow: hidden;
-}
-
-#saaremaa {
+#lighthouse {
     height: 600px;
     width: 100%;
     background-image: url('../images/saaremaa.jpg') no-repeat center center;
-    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73));
-    width: 80%;
-    height: 400px;
     background-size: cover;
-    color: rgb(139, 12, 12);
-    padding: 20px;
+    padding: 0;
 }
+
+.bottom-left {
+position: absolute;
+bottom: 8px;
+left: 16px;
+}
+
+.top-left {
+position: absolute;
+top: 8px;
+left: 16px;
+}
+
+.top-right {
+position: absolute;
+top: 8px;
+right: 16px;}
+
 
 .summer {
     width: 33%;
@@ -74,15 +82,79 @@ h1, h2 {
     width: 33%;
     height: 250px;
 }
+#island {
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
 
 
-/* history and to-do background settings*/
+/* history and to-do settings*/
 
 #history {
-    background-image: linear-gradient(rgb(122, 230, 228), rgba(85, 139, 150, 0.5)), url("kuressaare_castle.jpg");
+    padding: 60px;
+    margin: 0;
+    background-image: url("kuressaare_castle.jpg");
+    background-color:rgb(85, 139, 150, 0.5);
 }
 #to-do {
-    background-image: linear-gradient(rgb(122, 230, 228), rgba(85, 139, 150, 0.5)), url("");
+    padding: 60px;
+    margin: 0;
+    background-image: url("meri.jpg");
+    background-color: rgb(85, 139, 150, 0.5);
+}
+
+#activities {
+    padding: 60px;
+    margin: 0;
+    display: flexbox;
+    background-color:rgb(170, 221, 238);
+}
+#links {
+    padding: 60px;
+    margin: 0;
+    background-color:rgb(170, 221, 238);
+    
+}
+footer {
+    text-align: center;
+    margin: 0;
+    background-color:rgb(26, 26, 50);
+    padding: 60px;
+    color:aliceblue ;
+}
+#gallery {
+    #road {
+                
+        width: 600px;
+        height: 100%;
+         }
+
+    
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+    
+    .bottom-left {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+    }
+    
+    .top-left {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+    }
+    
+    .top-right {
+      position: absolute;
+      top: 8px;
+      right: 16px;
+    }
 }
 
 
