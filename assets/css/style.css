@@ -27,14 +27,15 @@ h1, h2 {
 
 #menu {
         font-size: 110%;
-        letter-spacing: 6px;
-        color:bisque
+        letter-spacing: 4px;
+
 }
 #menu, #logo {
     line-height: 150px;       
 }
 #menu a:hover {
     border-bottom: 1px solid;
+    color:bisque;
 }
 #menu li {
     float: right;
@@ -43,37 +44,35 @@ h1, h2 {
 }   
 .active {
     border-bottom: 1px solid;
+    color:bisque;
 }    
 
-/*saaremaa-image*/
+/*images*/
 
-#lighthouse {
-    height: 600px;
+.lighthouse {
+    
+    background-image: url('../images/saaremaa.jpg') no-repeat center center; 
+    object-fit: cover;
     width: 100%;
-    background-image: url('../images/saaremaa.jpg') no-repeat center center;
-    background-size: cover;
-    padding: 0;
+    height:500px;
+
 }
 
-.bottom-left {
-position: absolute;
-bottom: 8px;
-left: 16px;
-}
-
+/*Saaremaa logo*/
 .top-left {
-position: absolute;
-top: 8px;
-left: 16px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
-
+/* Menu styling */
 .top-right {
-position: absolute;
-top: 8px;
-right: 16px;}
+    position: absolute;
+    top: 8px;
+    right: 16px;}
 
 
-.summer {
+
+.race {
     width: 33%;
     height: 250px;
 }
@@ -83,9 +82,11 @@ right: 16px;}
     height: 250px;
 }
 #island {
+    display: flexbox;
     text-align: center;
-    background-color: black;
+    background-color: rgb(61, 66, 78);
     color: white;
+    
     
 }
 
@@ -93,12 +94,14 @@ right: 16px;}
 /* history and to-do settings*/
 
 #history {
+    display: flexbox;
     padding: 60px;
     margin: 0;
     background-image: url("kuressaare_castle.jpg");
     background-color:rgb(85, 139, 150, 0.5);
 }
 #to-do {
+    display: flexbox;
     padding: 60px;
     margin: 0;
     background-image: url("meri.jpg");
@@ -112,50 +115,34 @@ right: 16px;}
     background-color:rgb(170, 221, 238);
 }
 #links {
+    display: flexbox;
     padding: 60px;
     margin: 0;
-    background-color:rgb(170, 221, 238);
+    background-color:rgb(96, 188, 219);
     
 }
+#gallery {
+    display: flexbox;
+    background: rgb(34, 164, 239);
+    height: 100px;
+}
+#info {
+    display: flexbox;
+    background: rgb(34, 164, 239);
+    height: 100px;
+}
+
+/*footer settings*/
 footer {
+    display: flexbox;
     text-align: center;
     margin: 0;
     background-color:rgb(26, 26, 50);
     padding: 60px;
     color:aliceblue ;
 }
-#gallery {
-    #road {
-                
-        width: 600px;
-        height: 100%;
-         }
 
-    
-    .container {
-      position: relative;
-      text-align: center;
-      color: white;
-    }
-    
-    .bottom-left {
-      position: absolute;
-      bottom: 8px;
-      left: 16px;
-    }
-    
-    .top-left {
-      position: absolute;
-      top: 8px;
-      left: 16px;
-    }
-    
-    .top-right {
-      position: absolute;
-      top: 8px;
-      right: 16px;
-    }
-}
+
 
 
 
