@@ -1,69 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  h1{
+      background-color:blue;
+      color:black;
+      font-size: xxx-large;
+      text-align:center;
+  }
+  
+  footer {
+      font-size: small;
+      font-weight: bold;
+  }
+  
+  nav {
+       text-align:right;
+       text-transform: uppercase;
+      
+      /* display:inline-flex; */
+  }
+  ul {
+      
+  list-style-type: none;
+  
+  }
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 33%; /* IE10 */
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align:middle;
+    width: 100%;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Safari 3-8 */
+    transform: scale(2); 
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns  </div>*/
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+    h1 {
+      flex:auto;
+      font-size: large;
+    }
+  
+    nav {
+      flex:auto;
+      font-size: medium;
+      background-color: blue;
+      
+    }
+  
+    .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  
+  }
+  
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+    h1 {
+      flex:auto;
+      font-size: medium;
+     }
+   nav {
+      flex:auto;
+      font-size: small;
+      background-color: red;
+    }
+    .zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+  }
+  .hero-img {
+     display: flex;
+      width: 100%;
+      height: 300px;
+  
+  }
+  /* overlay classes */
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  /* dark gray banner line */
+#banner {
+    display: flexbox;
+    text-align: center;
+    background-color: rgb(61, 66, 78);
+    color: white;
+    margin: 0;
+    padding: 6px;
+}
+
+  </style>
+</style>
+
+        
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="Holiday for families, backpackers, honeymoons in Saaremaa, Estonia">
-    <meta name="keywords" content="holiday, spas, wellbeing, activities indoor and outside, barrakuuda diving, fishing in Saaremaa, Estonia">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Our Newsletter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
 </head>
+
+
 <body>
-    <header>
-        <div class="flex-container">
-            <img src="assets/images/ferry.jpg" class ="img" alt="The Sea">
-                <div class="top-left">
-                    <a href="index.html">
-                    <h1 id="logo">Subscribe our Newsletter</h1>
-            </div>
-        <div class="top-right"> 
-    <!--navbar-->        
-    <nav>
-        <ul id="menu">
-            <li>
-                <a href="form.html">Our News</a>
-            </li>
-            <li>
-                <a href="gallery.html" class="active">Gallery</a>
-            </li>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
+  <header>
+    <div>
+      <img src="assets/images/ferry2.png" class ="hero-img" alt="The Sea">
+         
+      <div class="top-left">
+        <h1>Lovely Pictures of Saaremaa</h1>
+      </div>
+    </div>
+    <div class="top-right">
+      <nav>
+        <ul>
+            <li>Home</li>
+            <li>Gallery</li>
+            <li>Contact</li>
         </ul>
     </nav>
-</div>
-</div>
-    </header>
-    <section id="banner">
-        <div>A small Island in Baltic Sea, the land of slow living and being.</div>
-    </section>
-    <div class="flex-container">
-        <h2> Subscribe here to have a our monthly newsletter </h2>
+        
+    </div>
+  <!---navbar-->        
 
-        <div>
-            <form action="/action_page.php">
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name">
-          
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Last name">
-          
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="Email">
-            
-              <input type="submit" value="Submit">
-            </form>
+</header>
+<section id="banner">
+  <div>A small Island in Baltic Sea, the land of slow living and being.</div>
+</section>
+
+
+<form action="#">
+
+            <table>
+                <th>Contact Details</th>
+                <tr>
+                <td><label for="fname">First Name</label></td>
+                <td><input type="text" id="fname" name="firstname" placeholder="Your name" required="required">
+                </td>
+                 </tr>
+                <tr>
+                    <td><label for="lname">Last Name</label>
+                    </td>
+                    <td><input type="text" id="lname" name="lastname" placeholder="Last name" required="required">
+                    </td>
+                </tr> 
+                <td><label for="email">Email</label>
+                </td>
+                <td><input type="email" id="email" name="email" placeholder="Email" required="required">
+                </td>
+                <td><input type="submit" value="Submit">
+                </td>
+
+            </table>
+              
+              </form>
           </div>
 
     </div>
 
-
-
     <footer>
-                <a href=" https://www.facebook.com/visitestonia/" target="_blank"> Facebook </a><i class="fa-brands fa-facebook"></i></a> 
-                    <br>
-                <a href="https://www.instagram.com/visitestonia/?hl=en" target="_blank">Visit Estonia</a><i class="fa-brands fa-instagram"></i></a>
-    </footer>
+      <a href=" https://www.facebook.com/visitestonia/" target="_blank"> Facebook </a><i class="fa-brands fa-facebook"></i></a> 
+          <br>
+      <a href="https://www.instagram.com/visitestonia/?hl=en" target="_blank">Visit Estonia</a><i class="fa-brands fa-instagram"></i></a>
+      <p>Copyright &copy 2022 Heli Saarts</p>
+  </footer>
     <script src="https://kit.fontawesome.com/37be7f3450.js" crossorigin="anonymous"></script>
+
+  
 </body>
 </html>

@@ -1,111 +1,239 @@
+<!--https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp --> 
+<!-- https://www.w3schools.com/howto/howto_css_zoom_hover.asp -->
+<!-- https://www.w3schools.com/howto/howto_css_list_without_bullets.asp -->
+<!--https://www.w3schools.com/howto/howto_css_image_text.asp-->
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Holiday for families, backpackers, honeymoons in Saaremaa, Estonia">
     <meta name="keywords" content="holiday, spas, wellbeing, activities indoor and outside, barrakuuda diving, fishing in Saaremaa, Estonia">
-    <link rel="stylesheet" href="assets/css/style.css">
-
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
     <title>Gallery pictures of Saaremaa</title>
 </head>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+h1{
+    background-color:blue;
+    color:black;
+    font-size: xxx-large;
+    text-align:center;
+}
+
+footer {
+    font-size: small;
+    font-weight: bold;
+}
+
+nav {
+     text-align:right;
+     text-transform: uppercase;
+    
+    /* display:inline-flex; */
+}
+ul {
+    
+list-style-type: none;
+
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align:middle;
+  width: 100%;
+}
+
+.zoom:hover {
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari 3-8 */
+  transform: scale(2); 
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns  </div>*/
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+  h1 {
+    flex:auto;
+    font-size: large;
+  }
+
+  nav {
+    flex:auto;
+    font-size: medium;
+    background-color: blue;
+    
+  }
+
+  .zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  h1 {
+    flex:auto;
+    font-size: medium;
+   }
+ nav {
+    flex:auto;
+    font-size: small;
+    background-color: red;
+  }
+  .zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+}
+.hero-img {
+   display: flex;
+    width: 100%;
+    height: 300px;
+
+}
+/* overlay classes */
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+  /* dark gray banner line */
+  #banner {
+    display: flexbox;
+    text-align: center;
+    background-color: rgb(61, 66, 78);
+    color: white;
+    margin: 0;
+    padding: 6px;
+}
+/*footer settings*/
+
+footer {
+    display: flexbox;
+    text-align: center;
+    margin: 0;
+    background-color:rgb(61, 66, 78);
+    padding: 60px;
+    color:aliceblue;
+    height: 100px;
+}
+
+footer a{
+    color:aliceblue;
+}
+
+footer a:hover{
+    color:rgb(34, 164, 239);
+}
+
+
+</style>
+
 <body>
 <header>
-        <div class="flex-container">
-            <img src="assets/images/ferry.jpg" class ="img" alt="The Sea">
-                <div class="top-left">
-                    <a href="index.html">
-                    <h1 id="logo"> Pictures of Saaremaa</h1>
-            </div>
-        <div class="top-right"> 
-    <!--navbar-->        
-    <nav>
-        <ul id="menu">
-            <li>
-                <a href="form.html">Our News</a>
-            </li>
-            <li>
-                <a href="gallery.html" class="active">Gallery</a>
-            </li>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
+    <div>
+      <img src="assets/images/ferry2.png" class ="hero-img" alt="The Sea">
+         
+      <div class="top-left">
+        <h1>Lovely Pictures of Saaremaa</h1>
+      </div>
+    </div>
+    <div class="top-right">
+      <nav>
+        <ul>
+            <li>Home</li>
+            <li>Gallery</li>
+            <li>Contact</li>
         </ul>
     </nav>
-</div>
-</div>
+        
+    </div>
+  <!---navbar-->        
+
 </header>
-
 <section id="banner">
-    <div>A small Island in Baltic Sea, the land of slow living and being.</div>
+  <div>A small Island in Baltic Sea, the land of slow living and being.</div>
 </section>
 
-<section id="row">
-    <div class="container">
-    <figure>
-        <img class="grid-item grid-item-1" src="assets/images/stowed_stones.jpg" id="stones" alt=" ">
-            <figcaption>Stowed stones</figcaption>
-    </figure>  
-    <figure>
-        <img  class="grid-item grid-item-2" src="assets/images/hiking_way.jpg" id="hiking" alt=" ">
-            <figcaption>Hiking way</figcaption>
-    </figure>
-    <figure>
-        <img class="grid-item grid-item-3"src="assets/images/panga.jpg" id="panga" alt=" ">
-            <figcaption>Panga</figcaption>
-    </figure>
-    </div>
-    <div class="container">
-    <figure>
-        <img class="grid-item grid-item-4" src="assets/images/krs1.jpg" id="kuressaare" alt=" ">
-            <figcaption>Kuressaare</figcaption>
-    </figure>
-    <figure>
-        <img class="grid-item grid-item-5"src="assets/images/krs2.jpg" id="kuressaare1" alt=" ">
-            <figcation>Kuressaare</figcation>
-    </figure>
-    <figure>
-        <img class="grid-item grid-item-6" src="assets/images/kuressaare-square.jpg" id="city-center" alt=" ">
-            <figcaption>Kuressaare square</figcaption>
-    </figure>
-    </div> 
-    <div clas="container">
-    <figure>
-        <img class="grid-item grid-item-7" src="assets/images/ice_road.jpg" id="ice" alt="Ice road" alt=" ">
-            <figcaption>Ice Road- Saaremaa to mainland</figcaption>
-    </figure>
-    <figure>
-        <img class="grid-item grid-item-8" src="assets/images/grass_snake.jpg" id="snake" alt="Snake" alt=" ">
-            <figcaption>Grass snake</figcaption>
-    </figure>
-    <figure>
-        <img class="grid-item grid-item-9"src="assets/images/bonfire.jpg" id="fire" alt=" ">
-            <figcaption>Midsummer festival. Bonfire"</figcaption>
-    </figure>
-    </div>
-    <figure>  
-        <img  class="grid-item grid-item-10"src="assets/images/happy_car.jpg" id="car" alt=" ">
-            <figcaption>Happy car under the snow</figcaption>
-    </figure> 
-    <figure>
-        <img class="grid-item grid-item-10" src="assets/images/beautiful_night.jpg" id="night" alt=" ">
-            <figcaption>Beautiful night</figcaption>
-    </figure>    
-</section>
-    <footer>
-        <ul>
-            <li>
-                <a href=" https://www.facebook.com/visitestonia/" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook </a>  
-            </li>
-            
-            <li>
-                <a href="https://www.instagram.com/visitestonia/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram </a>
-            </li>
-        </ul>
-    </footer>
+<!-- Photo Grid -->
+<div class="row"> 
+    <div class="column">
+    <img class="zoom" src="assets/images/stowed_stones.jpg" alt="Stowed Stones" style="width:100%">
+    <img class="zoom" src="assets/images/hiking_way.jpg" alt="Hiking way" style="width:100%">
+    <img class="zoom" src="assets/images/grass_snake.jpg" alt="Grass Snake" style="width:100%">
+    <img class="zoom" src="assets/images/happy_car.jpg" alt="Happy Car" style="width:100%">  
+</div>
+  <div class="column">    
+    <img class="zoom" src="assets/images/panga.jpg" alt="panga" style="width:100%">
+    <img class="zoom" src="assets/images/krs1.jpg" style="width:100%">
+    <img class="zoom" src="assets/images/krs2.jpg" style="width:100%">
+    <img class="zoom" src="assets/images/kuressaare-square.jpg" style="width:100%">
+  </div>
+  <div class="column">   
+    <img class="zoom" src="assets/images/beautiful_night.jpg" style="width:100%">
+    <img class="zoom" src="assets/images/bonfire.jpg" style="width:100%">
+    <img class="zoom" src="assets/images/happy_car.jpg" style="width:100%">
+    <img class="zoom" src="assets/images/ice_road.jpg" style="width:100%"></div>
+ </div>
+ 
+ <footer>
+  <a href=" https://www.facebook.com/visitestonia/" target="_blank"> Facebook </a><i class="fa-brands fa-facebook"></i></a> 
+      <br>
+  <a href="https://www.instagram.com/visitestonia/?hl=en" target="_blank">Visit Estonia</a><i class="fa-brands fa-instagram"></i></a>
+  <p>Copyright &copy 2022 Heli Saarts</p>
+</footer>
 
-    <!--font-awesome-->
-<script src="https://kit.fontawesome.com/37be7f3450.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/37be7f3450.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
+
