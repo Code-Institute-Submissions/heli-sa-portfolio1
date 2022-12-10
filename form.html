@@ -141,9 +141,27 @@
     margin: 0;
     padding: 6px;
 }
+/*footer settings*/
+
+footer {
+    display: flexbox;
+    text-align: center;
+    margin: 0;
+    background-color:rgb(61, 66, 78);
+    padding: 60px;
+    color:aliceblue;
+    height: 100px;
+}
+
+footer a{
+    color:aliceblue;
+}
+
+footer a:hover{
+    color:rgb(34, 164, 239);
+}
 
   </style>
-</style>
 
         
 <head>
@@ -164,51 +182,50 @@
       </div>
     </div>
     <div class="top-right">
-      <nav>
-        <ul>
-            <li>Home</li>
-            <li>Gallery</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
-        
+         <!--navbar-->
+         <nav>
+          <ul id="menu">
+              <li>
+                  <a href="form.html" class="active">Our news</a>
+              </li>
+              <li>
+                  <a href="gallery.html">Gallery</a>
+              </li>
+              <li>
+                  <a href="index.html" >Home</a>
+              </li>
+          </ul>
+      </nav>
     </div>
-  <!---navbar-->        
 
 </header>
-<section id="banner">
-  <div>A small Island in Baltic Sea, the land of slow living and being.</div>
-</section>
+  <section id="banner">
+    <div>A small Island in Baltic Sea, the land of slow living and being.</div>
+  </section>
+  
+  <form action="#">
 
-
-<form action="#">
-
-            <table>
-                <th>Contact Details</th>
-                <tr>
-                <td><label for="fname">First Name</label></td>
-                <td><input type="text" id="fname" name="firstname" placeholder="Your name" required="required">
-                </td>
-                 </tr>
-                <tr>
-                    <td><label for="lname">Last Name</label>
-                    </td>
-                    <td><input type="text" id="lname" name="lastname" placeholder="Last name" required="required">
-                    </td>
-                </tr> 
-                <td><label for="email">Email</label>
-                </td>
-                <td><input type="email" id="email" name="email" placeholder="Email" required="required">
-                </td>
-                <td><input type="submit" value="Submit">
-                </td>
-
-            </table>
-              
-              </form>
-          </div>
-
-    </div>
+    <table>
+        <th>Contact Details</th>
+        <tr>
+        <td><label for="fname">First Name</label></td>
+        <td><input type="text" id="fname" name="firstname" placeholder="Your name" required="required">
+        </td>
+         </tr>
+        <tr>
+            <td><label for="lname">Last Name</label>
+            </td>
+            <td><input type="text" id="lname" name="lastname" placeholder="Last name" required="required">
+            </td>
+        </tr> 
+        <td><label for="email">Email</label>
+        </td>
+        <td><input type="email" id="email" name="email" placeholder="Email" required="required">
+        </td>
+        <td><input type="submit" value="Submit">
+        </td>
+    </table>      
+   </form>
 
     <footer>
       <a href=" https://www.facebook.com/visitestonia/" target="_blank"> Facebook </a><i class="fa-brands fa-facebook"></i></a> 
