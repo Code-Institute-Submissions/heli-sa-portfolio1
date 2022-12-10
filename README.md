@@ -42,11 +42,16 @@ https://fontawesome.com
 Free Images-
 personal collection and <https://stock.adobe.com>
 
+
 **Reference Content**
 
 *Weather and livecams*
 https://www.meteoblue.com/en/weather/webcams/kuressaare_estonia_590939
 https://www.skylinewebcams.com/en/webcam/estonia/saaremaa/kuressaare/deer-cam.html
+
+Free images
+https://www.freepik.com/free-photos-vectors/saaremaa
+
 
 **Wireframe**
 - [HomePage](reference/wireframe/home_page.png)

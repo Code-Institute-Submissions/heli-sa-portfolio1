@@ -1,145 +1,252 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@350&family=Oswald&display=swap');
 * {
-    box-sizing: border-box;
+
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    
 }
 
 body {
-    font-weight: 300;   
+    font-weight: 350;   
     font-family: 'Lato', sans-serif;
-    color:rgb(17, 16, 16);
+    color: black;
+    line-height: 1.7;
+    font-size: 0.800rem;
+    display: border-box;
     
 }
-/*heading and logo*/
+/*header image and logo*/
 
-h1, h2 {
-    font-family: Oswald, sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 4px;
-    color:blue;
+#header {
+    height: 80%;
+    width: 100%; 
 }
+.img  {
+    
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background: url('../images/ferry.jpg') repeat cover cover;
+
+
+}
+.flex-container {
+    display:flexbox;
+} 
+
+
+/*Saaremaa logo*/
 
 #logo {
-        float: left;
-        font-size: 600%;
+    text-align: center;
+    position: absolute;
+    left: 60px;
 }
 
-#menu {
-        font-size: 110%;
-        letter-spacing: 4px;
 
+
+/* menu settings */
+#menu {
+    font-size: 110%;
+    position:absolute;
+    top: 8px;
+    right: 16px;
+    letter-spacing: 4px;
 }
 #menu, #logo {
-    line-height: 150px;       
+    line-height: 250px;       
 }
 #menu a:hover {
-    border-bottom: 1px solid;
-    color:bisque;
+    border-color: 1px solid rgb(28, 135, 228);
 }
+
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
-}   
+    margin-right: 35px;
+}
+
+
+h1, 
+h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:rgb(41, 41, 162);
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+}
+h1 {
+    text-shadow: 4px 2px 2px #1699cd;
+    font-size: 3.5rem;
+}
+h2 {
+    font-size: 1.5rem; 
+}
+p {
+    margin-bottom: 1.25;
+}
+
+/* dark gray banner line */
+#banner {
+    display: flexbox;
+    text-align: center;
+    background-color: rgb(61, 66, 78);
+    color: white;
+    margin: 0;
+    padding: 6px;
+}
+
+
 .active {
     border-bottom: 1px solid;
     color:bisque;
 }    
 
+
+
 /*images*/
 
-.lighthouse {
-    
-    background-image: url('../images/saaremaa.jpg') no-repeat center center; 
-    object-fit: cover;
-    width: 100%;
-    height:500px;
-
-}
-
-/*Saaremaa logo*/
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
-/* Menu styling */
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;}
-
-
-
 .race {
-    width: 33%;
+    width: 100%;
     height: 250px;
-}
-
-.map {
-    width: 33%;
-    height: 250px;
-}
-#island {
     display: flexbox;
-    text-align: center;
-    background-color: rgb(61, 66, 78);
-    color: white;
-    
-    
 }
 
 
-/* history and to-do settings*/
 
-#history {
-    display: flexbox;
-    padding: 60px;
-    margin: 0;
-    background-image: url("kuressaare_castle.jpg");
-    background-color:rgb(85, 139, 150, 0.5);
-}
-#to-do {
-    display: flexbox;
-    padding: 60px;
-    margin: 0;
-    background-image: url("meri.jpg");
-    background-color: rgb(85, 139, 150, 0.5);
-}
+/* stylings*/
 
-#activities {
-    padding: 60px;
-    margin: 0;
-    display: flexbox;
+      
+.flex-container {
     background-color:rgb(170, 221, 238);
-}
-#links {
-    display: flexbox;
+    width: 100%;
     padding: 60px;
     margin: 0;
-    background-color:rgb(96, 188, 219);
+    display: flex;
+        }
+    .column  {
+        padding: 20px;
+     
+        float: left;
+    }
+          
+          
+          /* Left/Right column */
+          
+          .column.side {
+            width: 33%;
+          }
+          /*Middle column*/
+         
+          .column.middle {
+            width: 33%;
+          }
+
+
+/*Gallery*/
     
-}
+
+ 
+
+
+
+
+@media screen and (max-width: 800px) {
 #gallery {
     display: flexbox;
-    background: rgb(34, 164, 239);
-    height: 100px;
+    column-count: 2;
+    grid-gap: 10px;
 }
-#info {
-    display: flexbox;
-    background: rgb(34, 164, 239);
-    height: 100px;
 }
 
+#row {
+
+    display: container;
+    flex-wrap: wrap;
+    margin: -0.5rem;
+}
+
+
+.container {
+        -ms-flex-align: center;
+        display: grid;
+        grid-gap: 6px;
+        grid-row: inherit;
+        grid-template-columns: repeat(absolute, minmax(15rem, 1fr));
+       
+
+        
+    }
+    
+    #useful_links{
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        -webkit-column-gap: 10px;
+        -moz-column-gap: 10px;
+        column-gap: 10px;
+      
+        }
+        
+
+
 /*footer settings*/
+
 footer {
     display: flexbox;
     text-align: center;
     margin: 0;
-    background-color:rgb(26, 26, 50);
+    background-color:rgb(61, 66, 78);
     padding: 60px;
-    color:aliceblue ;
+    color:aliceblue;
+    height: 100px;
+}
+
+footer a{
+    color:aliceblue;
+}
+
+footer a:hover{
+    color:rgb(34, 164, 239);
+}
+
+
+#form {
+    display: flexbox;
+    background: rgb(34, 164, 239);
+    height: 100px;
+    input[type=text], 
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      input[type=submit] {
+        width: 100%;
+       
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+       
+      }
+      
+      div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
 }
 
 
