@@ -1,35 +1,76 @@
- * {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@350&family=Oswald&display=swap');
+* {
     box-sizing: border-box;
   }
   
   body {
     margin: 0;
-    font-family: Arial;
+    font-weight: 350;   
+    font-family: 'Lato', sans-serif;
   }
   
-  h1{
-      background-color:blue;
-      color:black;
-      font-size: xxx-large;
-      text-align:center;
+  h1, 
+  h2 {
+      font-family: Oswald, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color:rgb(41, 41, 162);
+      line-height: 1.25;
+      margin-bottom: 0.75rem;
   }
-  
-  footer {
-      font-size: small;
-      font-weight: bold;
+
+#logo {
+    line-height: 200px;       
+}
+
+#menu {
+         
+}
+
+  h1 {
+      text-shadow: 4px 2px 2px #1699cd;
+      font-size: 3.5rem;
   }
-  
+  h2 {
+      font-size: 1.5rem; 
+  }
+
+  p {
+    margin-bottom: 1.25;
+}
   nav {
        text-align:right;
        text-transform: uppercase;
-      
+       
       /* display:inline-flex; */
   }
-  ul {
+  nav li {
       
   list-style-type: none;
   
+     
   }
+
+  nav a{
+    position:relative;
+    top: 80px;
+    right: 20px;
+    color:blue;
+    list-style-type: none;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: none;  
+     
+  }
+  nav a:hover{
+    color:aqua;
+  }
+
+  .active {
+    border-bottom: 1px solid;
+    color:aqua;
+  } 
+
   .row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -137,16 +178,6 @@
     margin: 0;
     padding: 6px;
   }
-
-  #banner2 {
-    display: flexbox;
-    text-align: center;
-    background-color:red;
-    color: white;
-    margin: 0;
-    padding: 6px;
-  }
-
   /*footer settings*/
 
 footer {

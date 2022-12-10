@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@350&family=Oswald&display=swap');
 * {
 
     padding: 0;
@@ -7,7 +7,15 @@
     
 }
 
-
+body {
+    font-weight: 350;   
+    font-family: 'Lato', sans-serif;
+    color: black;
+    line-height: 1.7;
+    font-size: 0.800rem;
+    display: border-box;
+    
+}
 /*header image and logo*/
 
 #header {
@@ -23,6 +31,10 @@
 
 
 }
+.flex-container {
+    display:flexbox;
+} 
+
 
 /*Saaremaa logo*/
 
@@ -34,7 +46,6 @@
 
 
 
-
 /* menu settings */
 #menu {
     font-size: 110%;
@@ -43,7 +54,9 @@
     right: 16px;
     letter-spacing: 4px;
 }
-
+#menu, #logo {
+    line-height: 250px;       
+}
 #menu a:hover {
     border-color: 1px solid rgb(28, 135, 228);
 }
@@ -55,10 +68,42 @@
 }
 
 
+h1, 
+h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:rgb(41, 41, 162);
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+}
+h1 {
+    text-shadow: 4px 2px 2px #1699cd;
+    font-size: 3.5rem;
+}
+h2 {
+    font-size: 1.5rem; 
+}
+p {
+    margin-bottom: 1.25;
+}
+
+/* dark gray banner line */
+#banner {
+    display: flexbox;
+    text-align: center;
+    background-color: rgb(61, 66, 78);
+    color: white;
+    margin: 0;
+    padding: 6px;
+}
+
+
 .active {
     border-bottom: 1px solid;
     color:bisque;
 }    
+
 
 
 /*images*/
@@ -147,6 +192,25 @@
         
 
 
+/*footer settings*/
+
+footer {
+    display: flexbox;
+    text-align: center;
+    margin: 0;
+    background-color:rgb(61, 66, 78);
+    padding: 60px;
+    color:aliceblue;
+    height: 100px;
+}
+
+footer a{
+    color:aliceblue;
+}
+
+footer a:hover{
+    color:rgb(34, 164, 239);
+}
 
 
 #form {
