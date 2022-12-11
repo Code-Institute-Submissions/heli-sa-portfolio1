@@ -86,10 +86,46 @@ In menu you can find the link to subscribe a latest news about life and events i
 ---
 
 
-The Homepage includes a list of links to transportation, weather, and local webcams.
-
 ## Design 
 ---
+## Colorsceem
+---
+
+hover: rgb(28, 135, 228);
+
+.active {
+    border-bottom: 1px solid;
+    color:bisque;
+
+    .flex-container {
+    background-color:rgb(170, 221, 238); 
+
+    #form {
+    display: flexbox;
+    background: rgb(34, 164, 239);
+
+    footer  color:aliceblue;
+      /* dark gray banner line */
+#banner {
+    display: flexbox;
+    text-align: center;
+    background-color: rgb(45, 48, 56);
+    color: white;
+
+      
+    nav {
+      background-color:rgb(20, 75, 148);;
+
+        .column {
+    background-color:rgba(116, 169, 194, 0.556);
+
+  
+
+          text-shadow: color:rgb(20, 75, 148);
+    
+
+
+
 
 
 ## Choice of Colours
@@ -101,7 +137,9 @@ Color choice made Inspired by [Estonia Flag](https://en.wikipedia.org/wiki/Flag_
 
 ## Fonts and icons
 ***
-- https://fonts.google.com
+
+- https://fonts.google.com   
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@350&family=Oswald&display=swap');
 - https://fontawesome.com
 - https://stock.adobe.com
 - Personal photo collection.
