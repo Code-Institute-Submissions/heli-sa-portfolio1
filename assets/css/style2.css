@@ -10,6 +10,7 @@
     font-weight: 350;   
     font-family: 'Lato', sans-serif;
     background-color: rgba(116, 169, 194, 0.556);
+    background-color:rgba(116, 169, 194, 0.556);
   }
   
   h1, 
@@ -17,7 +18,7 @@
       font-family: Oswald, sans-serif;
       text-transform: uppercase;
       letter-spacing: 2px;
-      color:rgb(20, 75, 148);
+      color:#144b94;
       line-height: 1.25;
       margin-bottom: 0.75rem;
   }
@@ -38,7 +39,7 @@
   }
 
   p {
-    margin-bottom: 1.25;
+    margin-bottom: 1.25px;
 }
   nav {
        text-align:right;
@@ -83,8 +84,8 @@
   /* Create three equal columns that sits next to each other */
   .column {
     -ms-flex: 33%; /* IE10 */
-    flex: 33.3%;
-    max-width: 33.3%;
+    flex: 33.33%;
+    max-width: 33.33%;
     padding: 0 4px;
     background-color:rgba(116, 169, 194, 0.556);
     

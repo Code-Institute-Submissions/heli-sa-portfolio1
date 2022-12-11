@@ -36,49 +36,58 @@
     </div>
 
 </header>
-  <section id="banner">
+  <div id="banner">
     <div>A small Island in Baltic Sea, the land of slow living and being.</div>
-  </section>
+  </div>
   <section>
   <form class="form">
     <h2>
       Subscribe our monthly newsletter
       </h2>
     <table>
+      <tr>
         <th>Please place your Contact Details</th>
-          <tr>
-            <td><label for="fname">First Name</label></td>
-            <td>
-              <input type="text" id="fname" name="firstname" placeholder="Your name" required="required">
-              </td>
-          </tr>
-        <tr>
-            <td>
-              <label for="lname">Last Name</label>
-            </td>
-            <td>
-              <input type="text" id="lname" name="lastname" placeholder="Last name" required="required">
-            </td>
-        </tr> 
+        <th></th>
+<!--- Added blank heading to remove error from W3C checker-->
+      </tr>
+      <tr>
+        <td><label for="fname">First Name</label></td>
         <td>
-          <label for="email">Email</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name" required="required">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="lname">Last Name</label>
         </td>
         <td>
-          <input type="email" id="email" name="email" placeholder="Email" required="required">
+          <input type="text" id="lname" name="lastname" placeholder="Last name" required="required">
         </td>
-        <td>
-          <input type="submit" value="Submit">
-        </td>
-    </table> 
+    </tr>
+    <tr> 
+      <td>
+        <label for="email">Email</label>
+      </td>
+      <td>
+        <input type="email" id="email" name="email" placeholder="Email" required="required">
+      </td>
+    </tr>
+   <tr>
+    <td></td>
+    <td><input type="submit" value="Submit"></td>
+  </tr>
+  </table>
+  
+    
+  </form> 
+  
   </section>
     <footer>
-      <a href=" https://www.facebook.com/visitestonia/" target="_blank"> Facebook </a><i class="fa-brands fa-facebook"></i></a> 
+      <a href="https://www.facebook.com/visitestonia/" target="_blank"> Facebook <i class="fa-brands fa-facebook"></i></a> 
           <br>
-      <a href="https://www.instagram.com/visitestonia/?hl=en" target="_blank">Instagram</a><i class="fa-brands fa-instagram"></i></a>
-      <div>Copyright &copy 2022 Heli Saarts</div>
+      <a href="https://www.instagram.com/visitestonia/?hl=en" target="_blank">Instagram<i class="fa-brands fa-instagram"></i></a>
+      <div>Copyright &copy; 2022 Heli Saarts</div>
   </footer>
     <script src="https://kit.fontawesome.com/37be7f3450.js" crossorigin="anonymous"></script>
-
-  
 </body>
 </html>
