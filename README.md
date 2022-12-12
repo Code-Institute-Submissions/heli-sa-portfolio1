@@ -10,11 +10,11 @@
 ##### The website was designed based on the principles taught in the course #####
 
 
-Island Saaremaa in Baltic sea, part of Estonia. 
+Island Saaremaa is in Baltic sea, part of Estonia. 
 
-This website is for everybody who likes exploring around, who does not afraid to step out from busy life and find themself in quiet island, meet with local traditions, taste the local food, have a activities indoor and outside, also to take time to take care yourself and spend time in spas and wellbeing centres.
+This website is for everybody who likes exploring around, who does not afraid to step out from busy life and find themself in quiet island, meet with local traditions, taste the local food, have a activities indoor and outside, also to take time to take care yourself and spend time in spas, saunas and wellbeing centres.
 Saaremaa is perfect place for green traveler, as Estonia  participates in the international Green Destination program which Visit Estonia will pilot in 7 destinations in 2020 (Saaremaa, Hiiumaa, Pärnu, Rakvere, Lahemaa, Järva County and Tartu, added links to find helpful information.
-In menu you can find the link to subscribe a latest news about life and events in Saaremaa. 
+In menu you can find the link to subscribe the latest news about life and events in Saaremaa. 
 
 
 
@@ -43,7 +43,7 @@ In menu you can find the link to subscribe a latest news about life and events i
 
        - Copyright &copy 2022 Heli Saarts
 
-####The website contains the following pages### 
+#### The website contains the following pages ### 
 
 - *Homepage – this is the landing page for the website. The page contains the following sections:*
   - Homepages divided in 5 different sections, between each section is banner with little message about Saaremaa:
@@ -76,9 +76,10 @@ In menu you can find the link to subscribe a latest news about life and events i
          - Third column - useful links
     - Footer - including links to social media and copyright
 
-- #### *Gallery* – a selection of images from the island.
-  -  
-- #### *Our News* – sign up to our newsletter today!
+- #### *Gallery* – a selection of images about the island.
+  -  All photos can point and zoom out.
+- #### *Contact Us* – sign up to our newsletter today!
+  - Subscription for monthly newspaper.
 - #### *Confirmation Page* – confirms receipt of newsletter request.
 - #### *Footer*-  which is present on all pages contains links to social media and Copyright &copy 2022 Heli Saarts
 
@@ -87,46 +88,6 @@ In menu you can find the link to subscribe a latest news about life and events i
 
 
 ## Design 
----
-## Colorsceem
----
-
-hover: rgb(28, 135, 228);
-
-.active {
-    border-bottom: 1px solid;
-    color:bisque;
-
-    .flex-container {
-    background-color:rgb(170, 221, 238); 
-
-    #form {
-    display: flexbox;
-    background: rgb(34, 164, 239);
-
-    footer  color:aliceblue;
-      /* dark gray banner line */
-#banner {
-    display: flexbox;
-    text-align: center;
-    background-color: rgb(45, 48, 56);
-    color: white;
-
-      
-    nav {
-      background-color:rgb(20, 75, 148);;
-
-        .column {
-    background-color:rgba(116, 169, 194, 0.556);
-
-  
-
-          text-shadow: color:rgb(20, 75, 148);
-    
-
-
-
-
 
 ## Choice of Colours
 ***
@@ -135,26 +96,28 @@ Color choice made Inspired by [Estonia Flag](https://en.wikipedia.org/wiki/Flag_
 - black – the color of the soil of the homeland and the national flag;
 - white - the people's quest for happiness and light.
 
-## Fonts and icons
+## Table of Contents
+
+<a name="general-info"></a>
+
+
+
+## Free Fonts, Icons and Images
 ***
 
 - https://fonts.google.com   
  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@350&family=Oswald&display=swap');
 - https://fontawesome.com
 - https://stock.adobe.com
+-https://www.freepik.com/free-photos-vectors/saaremaa
 - Personal photo collection.
 
 
 ## Reference Contents
 ***
-*Weather and livecams*
-https://www.meteoblue.com/en/weather/webcams/kuressaare_estonia_590939
-https://www.skylinewebcams.com/en/webcam/estonia/saaremaa/kuressaare/deer-cam.html
-
-Free images
-https://www.freepik.com/free-photos-vectors/saaremaa
-
-
+- Weather and livecams
+  - https://www.meteoblue.com/en/weather/webcams/kuressaare_estonia_590939
+  - https://www.skylinewebcams.com/en/webcam/estonia/saaremaa/kuressaare/deer-cam.html
 ## Wireframe
 ***
 
@@ -181,20 +144,16 @@ https://www.freepik.com/free-photos-vectors/saaremaa
 **https://whatismarkdown.com/category/learn-markdown/**
 
 
-
-##Design
-***- `The website was designed based on the principles taught in the course. (go back and check course)`
-
 ## Development Tools
 ***
 
--The project was developed using the following:
-- Gitpod with Visual Studio Code Editor.
-- Git and Github were used to manage version control.
+- The project was developed using the following:
+  - Gitpod with Visual Studio Code Editor.
+  - Git and Github were used to manage version control.
 
 
 
-## Visual testing
+## Manual tesing- UI
 ___
 
 - README in GitHub repository is describing the project
@@ -207,12 +166,78 @@ ___
 
 - Menu on each page must contain links to Home, Gallery and  Our News
 
+- All colors are exactly same as showed in color card.
 
-## Functional Testing
+
+## Manual Functional Testing
 ---
 
-- All links must work
+- All links must work correctly.
 
+### Functional Testing:
+#### *Short descriptive steps*:
+- Open website: URL from github
+- Confirm the page opens correctly.
+
+- Scroll to the bottom of the page:
+
+  - In the last section. Click each of the following links and confirm the external website pages open.
+
+  - Click on the footer links at the bottom of the page. And confirm that the links to facebook and instagram work open the correct pages.
+
+- Internal Webpages:
+  - Menu Testing:
+     - From the Index.html page(Home page) 
+       Click on the footer links at the bottom of the page. And confirm that the links to Facebook and Instagram working correctly- need open the correct webpages.
+
+  - Gallery Page:
+    1. Confirm the page opens correctly.
+    2.  Scroll down the page and ensure that the layout is aligned correctly.
+    3. Hover the mouse over each image and confirm the hover function, zooms in on the image.
+
+    4. Click on the footer links at the bottom of the page. And confirm that the links to facebook and instagram work open the correct pages.
+
+  - Contact Us Page:
+    1. Confirm the page opens correctly.
+
+    2. Without entering any data into the contact form.
+    3.  Click on Submit.
+    4. Confirm that you are required to enter a First Name.
+    5. Enter a First Name.
+    6. Click on Submit.
+    7. Confirm that you are required to enter a Second Name.
+    8. Click on Submit.
+    9. Enter Second Name.
+    10. Click on Submit
+    11. Confirm that you are required to enter an Email.
+    12. Enter an Email address without the @ symbol.
+    13. Confirm that you are required to enter an Email with an @ symbol.
+    14. Click on Submit and confirm, confirmation message appears.
+
+    15. Click on the footer links at the bottom of the page.
+
+### *Responsiveness Testing:*
+
+
+- Media Query was used along with flexbox to allow for responsive design of the website.
+- Above the menu, there is a visual image which is red at the smallest screensize blue for tablet, and disappears for Desktop. At each step the styling for each element/class is checked within the relevant media-query.
+
+## Optimize Images For Web Without Losing Quality
+---
+
+  Using for resizing, caching, or compressing 
+   the images
+   - https://blog.scaleflex.com/
+
+## Lighthouse testing performance
+---
+
+
+## https://validator.w3.org/
+---
+
+Deployment of Website
+Using Github Pages, the wesbite can be found : https://heli-sa.github.io/portfolio1/
 
 - Each page must have valid and correct HTML- validation service w3
 ## Technologies
@@ -230,14 +255,15 @@ Check links on footer of home page. A new page should appear for facebook, Insta
 are copied across all pages.
 
 ## Testing tools
+
+
 ---
+
 
 
 
 DEF
 
-Notes/To-do:
-Update README with Markdown
 
 lighthouse:1          Failed to load resource: the server responded with a status of 404 (
 
