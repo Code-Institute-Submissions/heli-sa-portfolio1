@@ -54,8 +54,8 @@
     right: 20px;
     color:rgb(20, 75, 148);
     list-style-type: none;
-    font-size: x-large;
-    font-weight: bolder;
+    font-size: large;
+    font-weight:bold;
     text-decoration: none;  
     }
 
@@ -106,6 +106,23 @@
     vertical-align:middle;
     width: 100%;
 }
+#castle {
+  margin-top: 80px;
+}
+#ski {
+  padding-top: 25px;
+}
+
+#useful {
+ padding-left: 40px;
+}
+#to-go {
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+}
+
+
 
 .zoom:hover {
     -ms-transform: scale(2); /* IE 9 */
@@ -170,6 +187,7 @@
   }
 
   /* overlay classes */
+
   /* Top left text */
   .top-left {
     position: absolute;
@@ -194,10 +212,10 @@ section {
   background-color: rgb(45, 48, 56);
   color: white;
   margin: 0;
-  padding: 6px;
+  padding: 0px;
   }
 
-    /*our news pages settings*/
+    /*Contact Us pages settings*/
 
     form { 
       display: flexbox;
