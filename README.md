@@ -9,11 +9,11 @@
 
 ## **Introduction** ##
 
-Island Saaremaa is in Baltic sea, part of Estonia.
+Island Saaremaa is in Baltic sea, part of Estonia
 
 This website is for everybody who likes exploring around, who does not afraid to step out from busy life and find themself in quiet island, meet with local traditions, taste the local food, have a activities indoor and outside, also to take time to take care yourself and spend time in spas, saunas and wellbeing centres.
-Saaremaa is perfect place for green traveler, as Estonia  participates in the international Green Destination program which Visit Estonia will pilot in 7 destinations in 2020 (Saaremaa, Hiiumaa, Pärnu, Rakvere, Lahemaa, Järva County and Tartu, added links to find helpful information.
-In menu you can find the link to subscribe the latest news about life and events in Saaremaa.
+Saaremaa is perfect place for green traveler, as Estonia  participates in the international Green Destination program which Visit Estonia will pilot in 7 destinations in 2020 (Saaremaa, Hiiumaa, Pärnu, Rakvere, Lahemaa, Järva County and Tartu, added links to find helpful information
+In menu you can find the link to subscribe the latest news about life and events in Saaremaa
 
 ## Contents
 
@@ -23,13 +23,13 @@ In menu you can find the link to subscribe the latest news about life and events
 
 - #### Each page including
 
-  - At the top right of each pages is a responsive menu for navigate through the all website pages.
+  - At the top right of each pages is a responsive menu for navigate through the all website pages
 
-  - At the top left is an image of website page name.
-  - All pages have a same header background image.
+  - At the top left is an image of website page name
+  - All pages have a same header background image
     - [Header Image](workspace/portfolio/assets/images/ferry2.jpg)
 
-  - Footer with responsive social media links.
+  - Footer with responsive social media links
 
     - [Facebook](https://www.facebook.com/visitestonia/")
 
@@ -39,24 +39,24 @@ In menu you can find the link to subscribe the latest news about life and events
 
 #### The website contains the following pages ###
 
-- *Homepage – this is the landing page for the website. The page contains the following sections:*
-  - Homepages divided in 5 different sections, between each section is banner with little message about Saaremaa:
+- *Homepage – this is the landing page for the website. The page contains the following sections*
+  - Homepages divided in 5 different sections, between each section is banner with little message about Saaremaa
 
     Header
 
-    - Banner- It is island of Estonia in the Baltic sea, populated with circa 31.000 inhabitants.
+    - Banner- It is island of Estonia in the Baltic sea, populated with circa 31.000 inhabitants
     - First Section is divided vertically in 3 different columns:
       1. first column- some reasons to go to Saaremaa
       2. second column- image [wooden viking sculpture](workspace/portfolio1/assets/images/viking.jpg)
-      3. third column- interesting facts.
+      3. third column- interesting facts
     - Banner- A small Island in Baltic Sea, the land of slow living and being
-    - Second section divided vertically in 3 different columns:
+    - Second section divided vertically in 3 different columns
 
        1. first column- Interesting facts, where to go what to do
 
        2. Second column- image [Ice Race](workspace/portfolio1/assets/images/race.jpg)
 
-       3. Third column- hints about activities and spas.
+       3. Third column- hints about activities and spas
     - Banner- "On the island 98% is Ethnic Estonian"
     - Third section- divided vertically in 3 different columns.
 
@@ -74,11 +74,11 @@ In menu you can find the link to subscribe the latest news about life and events
 
 - #### *Gallery* – a selection of images about the island
 
-  - All photos can point and zoom out.
+  - All photos can point and zoom out
 
 - #### *Contact Us* – sign up to our newsletter today
 
-  - Subscription for monthly newspaper.
+  - Subscription for monthly newspaper
 
 - #### *Confirmation Page* – confirms receipt of newsletter request
 
@@ -86,22 +86,24 @@ In menu you can find the link to subscribe the latest news about life and events
 
 ## Used links
 
+for find information for home page
+
 ---
 
 - <https://www.visitestonia.com/en/where-to-go/islands>
 - <https://www.tripadvisor.co.uk/Attractions-g277795-Activities-Saaremaa_Saare_County.html>
 - <https://www.britannica.com/place/Saaremaa>
 
-## Design
-
 ## Choice of Colours
 
 ***
-Color choice made Inspired by [Estonia Flag](https://en.wikipedia.org/wiki/Flag_of_Estonia)
+Color choice made by Inspired of [Estonia Flag](https://en.wikipedia.org/wiki/Flag_of_Estonia)
 
-- blue – a reflection of Estonia's sky, lakes and sea, a symbol of truth and loyalty to national values;
+- blue – a reflection of Estonia's sky, lakes and sea, a symbol of truth and loyalty to national values
 - black – the color of the soil of the homeland and the national flag;
-- white - the people's quest for happiness and light.
+- white - the people's quest for happiness and light
+
+- [Sample of color choices](https://www.color-hex.com/user/add-palette.php)
 
 ## Free Fonts, Icons and Images
 
@@ -112,7 +114,7 @@ Color choice made Inspired by [Estonia Flag](https://en.wikipedia.org/wiki/Flag_
 - <https://fontawesome.com>
 - <https://stock.adobe.com>
 -<https://www.freepik.com/free-photos-vectors/saaremaa>
-- Personal photo collection.
+- Personal photo collection
 
 ## Reference Contents
 
@@ -137,27 +139,23 @@ Color choice made Inspired by [Estonia Flag](https://en.wikipedia.org/wiki/Flag_
 
 ***
 
-**<https://www.w3schools.com/css/tryit.asp>?**
- filename=trycss_image_text_top_right
-**<https://www.w3schools.com/css/tryit.asp>?**   filename=trycss_image_text_top_left**
-**<https://www.w3schools.com/howto/tryit.asp>?**
- filename=tryhow_css_vertical_menu
-**<https://www.jotform.com/blog/20-code-snippets-contact-forms-98615/>**
-**<https://www.w3schools.com/howto/howto_css_contact_form.asp>**
-**<https://www.markdownguide.org/cheat-sheet/>**
-**<https://webdesign.tutsplus.com/>**
-**<https://www.html.am/templates/>**
-**<https://www.geeksforgeeks.org/?newui>**
-**<https://scrimba.com/learn/design>**
-**<https://whatismarkdown.com/category/learn-markdown/>**
+- [w3school](https://www.w3schools.com/css/tryit.asp>)
+- [jotform](https://www.jotform.com)
+- [learn.shayhowe](https://www.w3schools.com/howto/howto_css_contact_form.asp)
+- [markdownguide](https://www.markdownguide.org/cheat-sheet/)
+- [webdesign.tutsplus](https://webdesign.tutsplus.com/)
+- [html](https://www.html.am/templates/)
+- [geeksforgeeks](https://www.geeksforgeeks.org/?newui)
+- [scrimba](https://scrimba.com/learn/design)
+- [whatimarkdown](https://whatismarkdown.com/category/)
 
 ## Development Tools
 
 ***
 
-- The project was developed using the following:
-  - Gitpod with Visual Studio Code Editor.
-  - Git and Github were used to manage version control.
+- The project was developed using the following
+  - Gitpod with Visual Studio Code Editor
+  - Git and Github were used to manage version control
 
 ## Manual tesing- UI
 
@@ -167,117 +165,136 @@ ___
 
 - Must be used Code Institute Template
 
-- Visually all pages must have a correct layout and readable text.
+- Visually all pages must have a correct layout and readable text
 
-- Menu must be on each page on the right top.
+- Menu must be on each page on the right top
 
 - Menu on each page must contain links to Home, Gallery and  Our News
 
-- All colors are exactly same as showed in color card.
+- All colors are exactly same as showed in color pallette
 
 ## Manual Functional Testing
 
 ---
 
-- All links must open and work correctly.
+- All links must open and work correctly
 
-### Functional Testing
-
-#### *Short descriptive steps*
+### `Short descriptive steps`
 
 - Open website: URL from github
-- Confirm the page opens correctly.
+- Confirm the page opens correctly
 
-- Scroll to the bottom of the page:
+- Scroll to the bottom of the page
 
   - In the last section. Click each of the following links and confirm the external website pages open.
 
   - Click on the footer links at the bottom of the page. And confirm that the links to facebook and instagram work open the correct pages.
 
-- Internal Webpages:
-  - Menu Testing:
-    - From the Index.html page(Home page)
-       Click on the footer links at the bottom of the page. And confirm that the links to Facebook and Instagram working correctly- need open the correct webpages.
+- Internal Webpages
+
+  - Home page
+      1. Menu Testing
+           - Click on the Home button
+
+  - From the Index.html page(Home page)
+       Click on the footer links at the bottom of the page. And confirm that the links to Facebook and Instagram working correctly- need open the correct webpages
 
   - Gallery Page:
     1. Confirm the page opens correctly.
-    2. Scroll down the page and ensure that the layout is aligned correctly.
-    3. Hover the mouse over each image and confirm the hover function, zooms in on the image.
+    2. Scroll down the page
+        - Confirm the layout is aligned correctly
+    3. Hover the mouse over each image
+        - Confirm the hover function zooms on the image
 
-    4. Click on the footer links at the bottom of the page. And confirm that the links to facebook and instagram work open the correct pages.
+    4. Click on the footer links at the bottom of the page.
+        - Confirm that the links to facebook and instagram work open the correct pages
 
   - Contact Us Page:
-    1. Confirm the page opens correctly.
+    1. Confirm the page opens correctly
 
     2. Without entering any data into the contact form.
-    3. Click on Submit.
-    4. Confirm that you are required to enter a First Name.
-    5. Enter a First Name.
-    6. Click on Submit.
-    7. Confirm that you are required to enter a Second Name.
-    8. Click on Submit.
-    9. Enter Second Name.
-    10. Click on Submit
-    11. Confirm that you are required to enter an Email.
-    12. Enter an Email address without the @ symbol.
-    13. Confirm that you are required to enter an Email with an @ symbol.
-    14. Click on Submit and confirm, confirmation message appears.
+    3. Click on Submit
+    4. Confirm that you are required to enter a First Name
+    5. Enter a First Name
+    6. Click on Submit
+    7. Confirm that you are required to enter a Second Name
+    8. Enter Second Name
+    9. Click on Submit
+    10. Confirm that you are required to enter an Email
+    11. Enter an Email address without the @ symbol
+    12. Confirm that you are required to enter an Email with an @ symbol
+    13. Enter Email correctly
+    14. Click on Submit
+    15. Confirm confirmation message appears
+    16. Click on the footer links at the bottom of the page to open them
 
-    15. Click on the footer links at the bottom of the page to open them.
+### `Responsiveness Testing`
 
-### *Responsiveness Testing:*
+- Media Query was used along with feedbox to allow for responsive design of the website
+- Above the menu, there is a visual image which is red at the smallest screensize blue for tablet, and disappears for Desktop. At each step the styling for each element/class is checked within the relevant media-query
 
-- Media Query was used along with feedbox to allow for responsive design of the website.
-- Above the menu, there is a visual image which is red at the smallest screensize blue for tablet, and disappears for Desktop. At each step the styling for each element/class is checked within the relevant media-query.
+## Optimize Images For Web Without Losing Quality
 
-### Optimize Images For Web Without Losing Quality
+___
 
----
-
- Using for resizing, caching, or compressing
+ Using for resizing, caching and compressing
    the images
 
-- <https://blog.scaleflex.com/>
+- <https://blog.scaleflex.com/>  
 
 ## Lighthouse testing performance
 
----
 
 
+***
 
-## <https://validator.w3.org/>
+## Validator V3 testing
 
----
+***  
 
-Deployment of Website
-Using Github Pages, the website can be found : <https://heli-sa.github.io/portfolio1/>
-
-- Each page must have valid and correct HTML- validation service w3
+## <https://validator.w3.org/>  
 
 ## Technologies
 
 ***
-A list of technologies used within the project:
+A list of technologies used within the project
 
-- Screenpresso
+- [Screenpresso](https://www.screenpresso.com/)
 
-Used to take the screenshots about testing results- before fixing the errors and after fixing the errors.
+Used to take the screenshots about testing results- before fixing the errors and after fixing the errors
+
+- [Color-hex](https://www.color-hex.com/)
+
+Used for color choices
+
+- ``Deployment of Website
+Using Github Pages, the website can be found
+  - <https://heli-sa.github.io/portfolio1/>
 
 **Test Script**
 
 - `need to finish!!!!!!!!!!!!!`
 
-Action Expected Result
+## Action Expected Result
 
-- Type in www. in chrome.
+***
+
+- Type in www. in chrome
     1. Page should load
-    2. Page should
-Scroll down the page the following items should be present.
-Click on Gallery Gallery page should load. Click Back
-Click on Contact Contact page should load. Click Back.
-Check links on footer of home page. A new page should appear for facebook, Instagram. These links
-are copied across all pages.
+    2. Page should scroll down the page the following items should be present
+
+    3. Click on Gallery Gallery page should load. Click Back
+    4. Click on Contact Contact page should load. Click Back
+    5. Check links on footer of home page
+       - A new page should appear for facebook, Instagram. These links
+are copied across all pages
+    6. Each image in gallery page should zoom out when pointed on
 
 ## Testing tools #
 
 lighthouse:1          Failed to load resource: the server responded with a status of 404 (
+  192.168.179.70 - - [13/Dec/2022 18:04:12] "GET /favicon.ico HTTP/1.1" 404 -
+
+   <https://validator.w3.org/>
+
+[def]: ttps://www.color-hex.com/user/add-palette.php
