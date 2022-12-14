@@ -241,6 +241,7 @@ ___
    the images
 
 - <https://blog.scaleflex.com/>  
+tinypng
 
 ## Lighthouse testing performance
 
@@ -271,6 +272,11 @@ Used for color choices
 Using Github Pages, the website can be found
   - <https://heli-sa.github.io/portfolio1/>
 
+Deployment of Website
+Using Github Pages, the website can be found : https://heli-sa.github.io/portfolio1/
+
+- Each page must have valid and correct HTML- validation service w3
+
 **Test Script**
 
 - `need to finish!!!!!!!!!!!!!`
@@ -290,7 +296,10 @@ Using Github Pages, the website can be found
 are copied across all pages
     6. Each image in gallery page should zoom out when pointed on
 
-## Testing tools #
+## Testing tools
+---
+- Chrome DevTool Lighthouse
+- V3C Testing Tool
 
 lighthouse:1          Failed to load resource: the server responded with a status of 404 (
   192.168.179.70 - - [13/Dec/2022 18:04:12] "GET /favicon.ico HTTP/1.1" 404 -

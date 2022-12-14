@@ -13,12 +13,12 @@
   
   h1, 
   h2 {
-      font-family: Oswald, sans-serif;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      color:#144b94;
-      line-height: 1.25;
-      margin-bottom: 0.75rem;
+    font-family: Oswald, sans-serif;
+    txt-transform: uppercase;
+    letter-spacing: 2px;
+    color:#144b94;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
   }
 
 #logo {
@@ -27,20 +27,20 @@
 }
 
   h1 {
-      text-shadow: 4px 2px 2px #1699cd;
-      font-size: 3.5rem;
+    text-shadow: 4px 2px 2px #1699cd;
+    font-size: 3.5rem;
   }
-  h2 {
-      font-size: 1.5rem; 
+h2 {
+    font-size: 1.5rem; 
   }
 
   p {
     margin-bottom: 1.25px;
 }
   nav {
-       text-align:right;
-       text-transform: uppercase;
-       
+    text-align:right;
+    text-transform: uppercase;
+
       /* display:inline-flex; */
   }
   nav li {
@@ -114,7 +114,7 @@
 }
 
 #useful {
- padding-left: 40px;
+  padding-left: 40px;
 }
 #to-go {
   padding-left: 40px;
@@ -129,13 +129,15 @@
     -webkit-transform: scale(2); /* Safari 3-8 */
     transform: scale(2); 
 }
+
+
   
   /* Responsive layout - makes a two column-layout instead of three columns  </div>*/
   @media screen and (max-width: 800px) {
     .column {
-      -ms-flex: 50%;
-      flex: 50%;
-      max-width: 50%;
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
     }
     h1 {
       flex:auto;
@@ -219,16 +221,15 @@ section {
     /*Contact Us pages settings*/
 
     form { 
-      display: flexbox;
+      display:inline-table;
       background-color: rgba(116, 169, 194, 0.556);
       padding-left: 400px;
-      padding-top: 25px;
-      padding-bottom: 25px;
+      padding-top: 80px;
+      padding-bottom: 80px;
   }
 
-    
     input,textarea{
-      display:flex;
+      display:inline-block;
       width:100%;
       border:2px solid #144b94;
       padding:5px;
@@ -266,8 +267,6 @@ section {
       .button:hover {
         color: aliceblue;
       }
-
-
 
   /*footer settings*/
 
