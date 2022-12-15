@@ -9,11 +9,12 @@
 
 ## **Introduction** ##
 
-Island Saaremaa is in Baltic sea, part of Estonia
+Saaremaa is an Island in the Baltic sea, which is part of Estonia
 
-This website is for everybody who likes exploring around, who does not afraid to step out from busy life and find themself in quiet island, meet with local traditions, taste the local food, have a activities indoor and outside, also to take time to take care yourself and spend time in spas, saunas and wellbeing centres.
-Saaremaa is perfect place for green traveler, as Estonia  participates in the international Green Destination program which Visit Estonia will pilot in 7 destinations in 2020 (Saaremaa, Hiiumaa, Pärnu, Rakvere, Lahemaa, Järva County and Tartu, added links to find helpful information
-In menu you can find the link to subscribe the latest news about life and events in Saaremaa
+This website is for everybody who likes exploring around, who is not afraid to step out from busy life and find themself on a quiet island, meet with local traditions, taste the local food, enjoy indoor and outdoor activities , also to take time to take care yourself and spend time in spas, saunas and wellbeing centres.
+Saaremaa is perfect place for the green traveler, as Estonia participates in the international Green Destination program which "Visit Estonia" will pilot in 7 destinations in 2020 (Saaremaa, Hiiumaa, Pärnu, Rakvere, Lahemaa, Järva County and Tartu, added links to find helpful information
+
+In the website you can find links to subscribe the latest news about life and events in Saaremaa
 
 ## Contents
 
@@ -23,13 +24,12 @@ In menu you can find the link to subscribe the latest news about life and events
 
 - #### Each page contains
 
-  - At the top right of each pages is a responsive menu for navigate through the all website pages
-
+  - At the top right of each page is a responsive menu to navigate through all the website pages
   - At the top left is an image of website page name
-  - All pages have a same header background image
+  - All pages have the same header background image
     - [Header Image](assets/images/ferry2.png)
     
-  - Footer with responsive social media links
+  - Footer with media links
 
     - [Facebook](https://www.facebook.com/visitestonia/)
 
@@ -40,45 +40,46 @@ In menu you can find the link to subscribe the latest news about life and events
 #### The website contains the following pages ###
 
 - *Homepage – this is the landing page for the website. The page contains the following sections*
-  - Homepages divided in 5 different sections, between each section is banner with little message about Saaremaa
+  - Homepages divided into 5 different sections, between each section is a banner with short message about Saaremaa
 
     Header
 
-    - Banner- It is island of Estonia in the Baltic sea, populated with circa 31.000 inhabitants
-    - First Section is divided vertically in 3 different columns:
-      1. first column- some reasons to go to Saaremaa
-      2. second column- image [Swamp Road](assets/images/swamp-road.jpg)
-      3. third column- interesting facts
-    - Banner- A small Island in Baltic Sea, the land of slow living and being
+    - Banner- Saaremaa is an island of Estonia in the Baltic sea, populated with circa 31.000 inhabitants
+    - The first Section is divided vertically in 3 different columns:
+      1. First column- some reasons to go to Saaremaa
+      2. Second column- image [Swamp Road](assets/images/swamp-road.jpg)
+      3. Third column- interesting facts
+    - Banner- A small Island in the Baltic Sea, the land of slow living and being
     - Second section divided vertically in 3 different columns
 
-       1. first column- Interesting facts, where to go what to do
-
+       1. First column- Interesting facts, where to go what to do
        2. Second column- image [Skiing](assets/images/ski.jpg)
-
        3. Third column- hints about activities and spas
+    
     - Banner- "On the island 98% is Ethnic Estonian"
     - Third section- divided vertically in 3 different columns.
 
       1. First column- History
-      2. Second column- image [Kuressaare castle](assets/images/kuressaare_castle.jpg)  
+      2. Second column- Image [Kuressaare castle](assets/images/kuressaare_castle.jpg)  
       3. Third column- History
+
     - Banner- "A land created by giants and influenced by viking culture"
     - Fourth section
       - divided vertically in 3 different columns  
 
-         1. First column -  Saaremaa Tourist Information Centre
-         2. Second column - image  [Map of Estonia](assets/images/map.jpg)
-         3. Third column - useful links
+      1. First column -  Saaremaa Tourist Information Centre
+      2. Second column - image  [Map of Estonia](assets/images/map.jpg)
+      3. Third column - useful links
     - Footer - including links to social media and copyright
 
 - #### *Gallery* – a selection of images about the island
 
-  - All photos can be selected and zoomed out
+  - All photos can be selected and zoomed in
 
 - #### *Contact Us* – sign up to our newsletter today
 
-  - Subscription for monthly newspaper
+  - Subscribe for monthly newspaper
+  - And where it is on Google Maps
 
 - #### *Confirmation Page* – confirms receipt of newsletter request which is `not created` 
 
@@ -92,7 +93,7 @@ In menu you can find the link to subscribe the latest news about life and events
 - <https://www.tripadvisor.co.uk/Attractions-g277795-Activities-Saaremaa_Saare_County.html>
 - <https://www.britannica.com/place/Saaremaa>
 
-- Weather and livecams
+- Weather and Live-cams
 
   - [Weather](https://www.meteoblue.com/en/weather/webcams/)
   - [Deer Cam](https://www.skylinewebcams.com/en/webcam/estonia/saaremaa/kuressaare/deer-cam.html)
@@ -100,26 +101,25 @@ In menu you can find the link to subscribe the latest news about life and events
 ## Choice of Colours
 
 ***
-Color choice made by Inspired of [Estonia Flag](https://en.wikipedia.org/wiki/Flag_of_Estonia)
+Color choice Inspired by [Estonia Flag](https://en.wikipedia.org/wiki/Flag_of_Estonia)
 
-- blue – a reflection of Estonia's sky, lakes and sea, a symbol of truth and loyalty to national values
-- black – the color of the soil of the homeland and the national flag;
-- white - the people's quest for happiness and light
-- blue – a reflection of Estonia's sky, lakes and sea, a symbol of truth and loyalty to national values
+- Blue – a reflection of Estonia's sky, lakes and sea, a symbol of truth and loyalty to national values
+- Black – the color of the soil of the homeland and the national flag;
+- White - the people's quest for happiness and light
+
 
 Final Choice of Color palette
 [Color Pallette](reference/color_palette/color_pallette.png)
 
-[def]: https://www.color-hex.com/user/add-palette.php
-
 ## Free Fonts, Icons and Images
 
-Fonts chosen: Oswald and Lato
+Fonts chosen: Oswald and Lato (Sans Serif)
+
 ***
 - <https://fonts.google.com>
- - <https://fontawesome.com>
+- <https://fontawesome.com>
 - <https://stock.adobe.com>
--<https://www.freepik.com/free-photos-vectors/saaremaa>
+- <https://www.freepik.com/free-photos-vectors/saaremaa>
 - Personal photo collection
 ## Wireframe
 
@@ -153,7 +153,7 @@ Mobile Wireframes
 ## Used technologies
 
 ***
-The languages
+Programming languages
 
 - HTML5
 - CSS3
@@ -165,7 +165,7 @@ The project was developed using the following
 - (https://blog.scaleflex.com/)  
 - (https://tinypng.com/)
 
-Used to take the screenshots about testing results- before fixing the errors and after fixing the errors
+Used to take the screenshots of testing results- before fixing the errors and after fixing the errors
 - Balsamiq- to create the wireframes
 
 - https://www.screenpresso.com/
@@ -203,7 +203,7 @@ Using Github Pages to host the deployed website can be found here:
 
 - All links must open and work correctly
 
-### `Short descriptive steps`
+### Short descriptive steps
 
 - Open website: (https://heli-sa.github.io/portfolio1/) from github
 - Confirm the page opens correctly
@@ -215,6 +215,7 @@ Using Github Pages to host the deployed website can be found here:
   - Click on the footer links at the bottom of the page. And confirm that the links to facebook and instagram work open the correct pages.
 
 - Internal Webpages
+Type in https://heli-sa.github.io/portfolio1/ in Google chrome 
 
   - Home page
       1. Menu Testing
@@ -229,13 +230,11 @@ Using Github Pages to host the deployed website can be found here:
              3. Confirm the layout is aligned correctly
              4. Hover the mouse over each image
              5. Confirm the hover function zooms on the image
-
              6. Click on the footer links at the bottom of the page.
              7. Confirm that the links to facebook and instagram work open the correct pages
 
           - Contact Us Page:
              1. Confirm the page opens correctly
-
              2. Without entering any data into the contact form.
              3. Click on Submit
              4. Confirm that you are required to enter a First Name
@@ -250,23 +249,7 @@ Using Github Pages to host the deployed website can be found here:
              13. Enter Email correctly
              14. Click on Submit
              15. Confirm confirmation message appears
-            16. Click on the footer links at the bottom of the page to open them
-
-## Test Script
-***
-
-### Action Expected Result
-
-- Type in https://heli-sa.github.io/portfolio1/ in chrome
-  - Page should load
-  - Page should scroll down the page the following items should be present
-
-  - Click on Gallery Gallery page should load. Click Back
-  - Click on Contact Contact page should load. Click Back
-  - Check links on footer of home page
-       - A new page should appear for Facebook, Instagram. These links
-are copied across all pages
-  - Each image in gallery page should zoom out when pointed on
+             16. Click on the footer links at the bottom of the page to open them
 
 ### Responsiveness Testing
 
