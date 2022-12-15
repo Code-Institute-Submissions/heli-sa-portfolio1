@@ -102,11 +102,11 @@ Color choice made by Inspired of [Estonia Flag](https://en.wikipedia.org/wiki/Fl
 - blue – a reflection of Estonia's sky, lakes and sea, a symbol of truth and loyalty to national values
 - black – the color of the soil of the homeland and the national flag;
 - white - the people's quest for happiness and light
-
-- [Sample of color choices](https://www.color-hex.com/user/add-palette.php)
+- blue – a reflection of Estonia's sky, lakes and sea, a symbol of truth and loyalty to national values
 
 Final Choice of Color palette
-[Colour Palatte](reference/color_palette/color_pallette.png)
+[Color Pallette](reference/color_palette/color_pallette.png)
+
 
 ## Free Fonts, Icons and Images
 
@@ -133,7 +133,7 @@ Final Choice of Color palette
 ## Wireframe
 
 ***
-*Desktop Wireframes
+Desktop Wireframes
 - [HomePage](reference/wireframe/DesktopHomePage.png)
 - [Gallery](reference/wireframe/DesktopGalleryPage.png)
 - [Contact](reference/wireframe/DesktopContactPage.png)
@@ -277,15 +277,11 @@ After fixing
 [Gallery](/workspace/portfolio1/reference/testing/w3c/w3c_gallery_with_no_errors.png) 
 
 [Contact Page](/workspace/portfolio1/reference/testing/w3c/w3c_contact_fixed.png)
-## Lighthouse testing performance & reesults
+## Lighthouse testing performance & results
 ***
 [Homepage](reference/testing/lighthouse/lighthouse_index.png)
 [Gallery](reference/testing/lighthouse/lighthouse_gallery.png)
 [Contact](reference/testing/lighthouse/lighthouse_contactus.png)
-
-
-## <https://validator.w3.org/>  
-
 ## Test Script
 ***
 
@@ -313,12 +309,9 @@ are copied across all pages
 
 <https://validator.w3.org/>
 
-[def]: ttps://www.color-hex.com/user/add-palette.php
+- DevTools failed to load source map: Could not load content for chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/sourceMap/chrome/scripts/iframe_form_check.map: System error: net::ERR_BLOCKED_BY_CLIENT
 
+- lighthouse:1          Failed to load resource: the server responded with a status of 404 (
+  192.168.179.70 - - [13/Dec/2022 18:04:12] "GET /favicon.ico HTTP/1.1" 404
 
-﻿
-DevTools failed to load source map: Could not load content for chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/sourceMap/chrome/scripts/iframe_form_check.map: System error: net::ERR_BLOCKED_BY_CLIENT
-
-lighthouse:1          Failed to load resource: the server responded with a status of 404 (
-  192.168.179.70 - - [13/Dec/2022 18:04:12] "GET /favicon.ico HTTP/1.1" 404 -
-
+[def]: https://www.color-hex.com/user/add-palette.php
