@@ -109,6 +109,8 @@ Color choice made by Inspired of [Estonia Flag](https://en.wikipedia.org/wiki/Fl
 Final Choice of Color palette
 [Color Pallette](reference/color_palette/color_pallette.png)
 
+[def]: https://www.color-hex.com/user/add-palette.php
+
 ## Free Fonts, Icons and Images
 
 Fonts chosen: Oswald and Lato
@@ -144,6 +146,30 @@ Mobile Wireframes
 - [geeksforgeeks](https://www.geeksforgeeks.org/?newui)
 - [scrimba](https://scrimba.com/learn/design)
 - [whatimarkdown](https://whatismarkdown.com/category/)
+
+## Development Tools
+
+***
+
+- The project was developed using the following
+  - Gitpod with Visual Studio Code Editor
+  - Git and Github were used to manage version control
+  - Optimize Images For Web Without Losing Quality
+- (https://blog.scaleflex.com/)  
+- (https://tinypng.com/)
+
+Used to take the screenshots about testing results- before fixing the errors and after fixing the errors
+
+- https://www.screenpresso.com/
+
+Used for color choices
+
+- https://www.color-hex.com/
+
+## Deployment of Website
+***
+Using Github Pages to host the deployed website can be found here:
+> https://heli-sa.github.io/portfolio1/
 
 ## Manual tesing- UI
 
@@ -216,34 +242,39 @@ ___
     15. Confirm confirmation message appears
     16. Click on the footer links at the bottom of the page to open them
 
+## Test Script
+***
+
+### Action Expected Result
+
+- Type in www. in chrome
+    1. Page should load
+    2. Page should scroll down the page the following items should be present
+
+    3. Click on Gallery Gallery page should load. Click Back
+    4. Click on Contact Contact page should load. Click Back
+    5. Check links on footer of home page
+       - A new page should appear for facebook, Instagram. These links
+are copied across all pages
+    6. Each image in gallery page should zoom out when pointed on
+
 ### `Responsiveness Testing`
 
-- Media Query was used along with feedbox to allow for responsive design of the website
+- Media Query was used along with flexbox to allow for responsive design of the website
 - Above the menu, there is a visual image which is red at the smallest screensize blue for tablet, and disappears for Desktop. At each step the styling for each element/class is checked within the relevant media-query
 
-## Development Tools
 
-***
+## Testing tools
+---
+- Chrome DevTool Lighthouse
+- W3C Testing Tool
 
-- The project was developed using the following
-  - Gitpod with Visual Studio Code Editor
-  - Git and Github were used to manage version control
-  - Optimize Images For Web Without Losing Quality
-- (https://blog.scaleflex.com/)  
-- (https://tinypng.com/)
+<https://validator.w3.org/>
 
-Used to take the screenshots about testing results- before fixing the errors and after fixing the errors
+- DevTools failed to load source map: Could not load content for chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/sourceMap/chrome/scripts/iframe_form_check.map: System error: net::ERR_BLOCKED_BY_CLIENT
 
-- https://www.screenpresso.com/
-
-Used for color choices
-
-- https://www.color-hex.com/
-
-## Deployment of Website
-***
-Using Github Pages to host the deployed website can be found here:
-> https://heli-sa.github.io/portfolio1/
+- lighthouse:1          Failed to load resource: the server responded with a status of 404 (
+  192.168.179.70 - - [13/Dec/2022 18:04:12] "GET /favicon.ico HTTP/1.1" 404
 
 ## Validator V3 testing
 
@@ -264,33 +295,4 @@ After fixing
 [Homepage](reference/testing/lighthouse/lighthouse_index.png)
 [Gallery](reference/testing/lighthouse/lighthouse_gallery.png)
 [Contact](reference/testing/lighthouse/lighthouse_contactus.png)
-## Test Script
-***
 
-
-### Action Expected Result
-
-- Type in www. in chrome
-    1. Page should load
-    2. Page should scroll down the page the following items should be present
-
-    3. Click on Gallery Gallery page should load. Click Back
-    4. Click on Contact Contact page should load. Click Back
-    5. Check links on footer of home page
-       - A new page should appear for facebook, Instagram. These links
-are copied across all pages
-    6. Each image in gallery page should zoom out when pointed on
-
-## Testing tools
----
-- Chrome DevTool Lighthouse
-- W3C Testing Tool
-
-<https://validator.w3.org/>
-
-- DevTools failed to load source map: Could not load content for chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/sourceMap/chrome/scripts/iframe_form_check.map: System error: net::ERR_BLOCKED_BY_CLIENT
-
-- lighthouse:1          Failed to load resource: the server responded with a status of 404 (
-  192.168.179.70 - - [13/Dec/2022 18:04:12] "GET /favicon.ico HTTP/1.1" 404
-
-[def]: https://www.color-hex.com/user/add-palette.php
