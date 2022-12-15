@@ -306,9 +306,7 @@ Links to screenshots for lighthouse tests
 - [Homepage](reference/testing/lighthouse/lighthouse_index.png)
 - [Gallery](reference/testing/lighthouse/lighthouse_gallery.png)
 - [Contact](reference/testing/lighthouse/lighthouse_contactus.png)
-   Thank you 
 
-
-   Credit
+ ## Credit
    ***
    Thank you to my mentor Ronan McClelland who supported me all this way with useful references and guides.
