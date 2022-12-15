@@ -80,7 +80,8 @@ In menu you can find the link to subscribe the latest news about life and events
 
   - Subscription for monthly newspaper
 
-- #### *Confirmation Page* – confirms receipt of newsletter request
+- #### *Confirmation Page* – confirms receipt of newsletter request which is `not created` 
+
 
 - #### *Footer*-  which is present on all pages contains links to social media and Copyright &copy 2022 Heli Saarts
 
@@ -124,12 +125,14 @@ Fonts chosen: Oswald and Lato
 
 ***
 Desktop Wireframes
-- [HomePage](reference/wireframe/DesktopHomePage.png)
+
+- ![HomePage](reference/wireframe/DesktopHomePage.png)
 - [Gallery](reference/wireframe/DesktopGalleryPage.png)
 - [Contact](reference/wireframe/DesktopContactPage.png)
 
 Mobile Wireframes
-- [HomePage](reference/wireframe/MobileHomePage.png)
+
+- ![HomePage](reference/wireframe/MobileHomePage.png)
 - [Gallery](reference/wireframe/MobileGalleryPage.png)
 - [Contact](reference/wireframe/MobileContactPage.png)
 
@@ -147,11 +150,15 @@ Mobile Wireframes
 - [scrimba](https://scrimba.com/learn/design)
 - [whatimarkdown](https://whatismarkdown.com/category/)
 
-## Development Tools
+## Used technologies
 
 ***
+The languages
 
-- The project was developed using the following
+- HTML5
+- CSS3
+
+The project was developed using the following
   - Gitpod with Visual Studio Code Editor
   - Git and Github were used to manage version control
   - Optimize Images For Web Without Losing Quality
@@ -159,6 +166,7 @@ Mobile Wireframes
 - (https://tinypng.com/)
 
 Used to take the screenshots about testing results- before fixing the errors and after fixing the errors
+- Balsamiq- to create the wireframes
 
 - https://www.screenpresso.com/
 
@@ -166,14 +174,16 @@ Used for color choices
 
 - https://www.color-hex.com/
 
+- Font Awesome- to get free icons to make website more user friendly
+
+- GitHub- to store the project after being pushed from Git
+
 ## Deployment of Website
 ***
 Using Github Pages to host the deployed website can be found here:
 > https://heli-sa.github.io/portfolio1/
 
-## Manual tesing- UI
-
-___
+## Manual tesing- UI__
 
 - README in GitHub repository describing the project
 
@@ -208,57 +218,57 @@ ___
 
   - Home page
       1. Menu Testing
-           - Click on the Home button
+         - Click on the Home button
 
-  - From the Index.html page(Home page)
-       Click on the footer links at the bottom of the page. And confirm that the links to Facebook and Instagram working correctly- need open the correct webpages
+              From the Index.html page(Home page)
+              Click on the footer links at the bottom of the page. And confirm that the links to Facebook and Instagram working correctly- need open the correct webpages
 
-  - Gallery Page:
-    1. Confirm the page opens correctly.
-    2. Scroll down the page
-        - Confirm the layout is aligned correctly
-    3. Hover the mouse over each image
-        - Confirm the hover function zooms on the image
+          - Gallery Page:
+             1. Confirm the page opens correctly.
+             2. Scroll down the page
+             3. Confirm the layout is aligned correctly
+             4. Hover the mouse over each image
+             5. Confirm the hover function zooms on the image
 
-    4. Click on the footer links at the bottom of the page.
-        - Confirm that the links to facebook and instagram work open the correct pages
+             6. Click on the footer links at the bottom of the page.
+             7. Confirm that the links to facebook and instagram work open the correct pages
 
-  - Contact Us Page:
-    1. Confirm the page opens correctly
+          - Contact Us Page:
+             1. Confirm the page opens correctly
 
-    2. Without entering any data into the contact form.
-    3. Click on Submit
-    4. Confirm that you are required to enter a First Name
-    5. Enter a First Name
-    6. Click on Submit
-    7. Confirm that you are required to enter a Second Name
-    8. Enter Second Name
-    9. Click on Submit
-    10. Confirm that you are required to enter an Email
-    11. Enter an Email address without the @ symbol
-    12. Confirm that you are required to enter an Email with an @ symbol
-    13. Enter Email correctly
-    14. Click on Submit
-    15. Confirm confirmation message appears
-    16. Click on the footer links at the bottom of the page to open them
+             2. Without entering any data into the contact form.
+             3. Click on Submit
+             4. Confirm that you are required to enter a First Name
+             5. Enter a First Name
+             6. Click on Submit
+             7. Confirm that you are required to enter a Second Name
+             8. Enter Second Name
+             9. Click on Submit
+             10. Confirm that you are required to enter an Email
+             11. Enter an Email address without the @ symbol
+             12. Confirm that you are required to enter an Email with an @ symbol
+             13. Enter Email correctly
+             14. Click on Submit
+             15. Confirm confirmation message appears
+            16. Click on the footer links at the bottom of the page to open them
 
 ## Test Script
 ***
 
 ### Action Expected Result
 
-- Type in www. in chrome
-    1. Page should load
-    2. Page should scroll down the page the following items should be present
+- Type in https://heli-sa.github.io/portfolio1/ in chrome
+  - Page should load
+  - Page should scroll down the page the following items should be present
 
-    3. Click on Gallery Gallery page should load. Click Back
-    4. Click on Contact Contact page should load. Click Back
-    5. Check links on footer of home page
-       - A new page should appear for facebook, Instagram. These links
+  - Click on Gallery Gallery page should load. Click Back
+  - Click on Contact Contact page should load. Click Back
+  - Check links on footer of home page
+       - A new page should appear for Facebook, Instagram. These links
 are copied across all pages
-    6. Each image in gallery page should zoom out when pointed on
+  - Each image in gallery page should zoom out when pointed on
 
-### `Responsiveness Testing`
+### Responsiveness Testing
 
 - Media Query was used along with flexbox to allow for responsive design of the website
 - Above the menu, there is a visual image which is red at the smallest screensize blue for tablet, and disappears for Desktop. At each step the styling for each element/class is checked within the relevant media-query
@@ -292,7 +302,13 @@ After fixing
 [Contact Page](reference/testing/w3c/w3c_contact_fixed.png)
 ## Lighthouse testing performance & results
 ***
-[Homepage](reference/testing/lighthouse/lighthouse_index.png)
-[Gallery](reference/testing/lighthouse/lighthouse_gallery.png)
-[Contact](reference/testing/lighthouse/lighthouse_contactus.png)
+Links to screenshots for lighthouse tests
+- [Homepage](reference/testing/lighthouse/lighthouse_index.png)
+- [Gallery](reference/testing/lighthouse/lighthouse_gallery.png)
+- [Contact](reference/testing/lighthouse/lighthouse_contactus.png)
+   Thank you 
 
+
+   Credit
+   ***
+   Thank you to my mentor Ronan McClelland who supported me all this way with useful references and guides.
