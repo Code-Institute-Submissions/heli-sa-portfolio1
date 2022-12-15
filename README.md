@@ -54,21 +54,21 @@ In menu you can find the link to subscribe the latest news about life and events
 
        1. first column- Interesting facts, where to go what to do
 
-       2. Second column- image [Ice Race](assets/images/race.jpg)
+       2. Second column- image [Sking](assets/images/ski.jpg)
 
        3. Third column- hints about activities and spas
     - Banner- "On the island 98% is Ethnic Estonian"
     - Third section- divided vertically in 3 different columns.
 
       1. First column- History
-      2. Second column- image [Kuressaare castle](assets/kuressaare_castle.jpg)  
+      2. Second column- image [Kuressaare castle](assets/images/kuressaare_castle.jpg)  
       3. Third column- History
     - Banner- "A land created by giants and influenced by viking culture"
     - Fourth section
       - divided vertically in 3 different columns  
 
          1. First column -  Saaremaa Tourist Information Centre
-         2. Second column - image  [map of Estonia](assets/map-saaremaa.jpg)
+         2. Second column - image  [map of Estonia](assets/images/map-saaremaa.jpg)
          3. Third column - useful links
     - Footer - including links to social media and copyright
 
