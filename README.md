@@ -27,8 +27,8 @@ In the website you can find links to subscribe the latest news about life and ev
   - At the top right of each page is a responsive menu to navigate through all the website pages
   - At the top left is an image of website page name
   - All pages have the same header background image
-    - [Header Image](assets/images/ferry2.png)
-    
+    - [Hero Image][def]
+
   - Footer with media links
 
     - [Facebook](https://www.facebook.com/visitestonia/)
@@ -55,7 +55,7 @@ In the website you can find links to subscribe the latest news about life and ev
        1. First column- Interesting facts, where to go what to do
        2. Second column- image [Skiing](assets/images/ski.jpg)
        3. Third column- hints about activities and spas
-    
+
     - Banner- "On the island 98% is Ethnic Estonian"
     - Third section- divided vertically in 3 different columns.
 
@@ -81,12 +81,12 @@ In the website you can find links to subscribe the latest news about life and ev
   - Subscribe for monthly newspaper
   - And where it is on Google Maps
 
-- #### *Confirmation Page* – confirms receipt of newsletter request which is `not created` 
-
+- #### *Confirmation Page* – confirms receipt of newsletter request which is `not created`
 
 - #### *Footer*-  which is present on all pages contains links to social media and Copyright &copy 2022 Heli Saarts
 
 ## Useful links
+
 ---
 
 - <https://www.visitestonia.com/en/where-to-go/islands>
@@ -107,7 +107,6 @@ Color choice Inspired by [Estonia Flag](https://en.wikipedia.org/wiki/Flag_of_Es
 - Black – the color of the soil of the homeland and the national flag;
 - White - the people's quest for happiness and light
 
-
 Final Choice of Color palette
 [Color Pallette](reference/color_palette/color_pallette.png)
 
@@ -116,11 +115,13 @@ Final Choice of Color palette
 Fonts chosen: Oswald and Lato (Sans Serif)
 
 ***
+
 - <https://fonts.google.com>
 - <https://fontawesome.com>
 - <https://stock.adobe.com>
 - <https://www.freepik.com/free-photos-vectors/saaremaa>
 - Personal photo collection
+
 ## Wireframe
 
 ***
@@ -159,29 +160,32 @@ Programming languages
 - CSS3
 
 The project was developed using the following
-  - Gitpod with Visual Studio Code Editor
-  - Git and Github were used to manage version control
+
+- Gitpod with Visual Studio Code Editor
+- Git and Github were used to manage version control
   - Optimize Images For Web Without Losing Quality
-- (https://blog.scaleflex.com/)  
-- (https://tinypng.com/)
+- (<https://blog.scaleflex.com/>)  
+- (<https://tinypng.com/>)
 
 Used to take the screenshots of testing results- before fixing the errors and after fixing the errors
+
 - Balsamiq- to create the wireframes
 
-- https://www.screenpresso.com/
+- <https://www.screenpresso.com/>
 
 Used for color choices
 
-- https://www.color-hex.com/
+- <https://www.color-hex.com/>
 
 - Font Awesome- to get free icons to make website more user friendly
 
 - GitHub- to store the project after being pushed from Git
 
 ## Deployment of Website
+
 ***
 Using Github Pages to host the deployed website can be found here:
-> https://heli-sa.github.io/portfolio1/
+> <https://heli-sa.github.io/portfolio1/>
 
 ## Manual tesing- UI__
 
@@ -205,7 +209,7 @@ Using Github Pages to host the deployed website can be found here:
 
 ### Short descriptive steps
 
-- Open website: (https://heli-sa.github.io/portfolio1/) from github
+- Open website: (<https://heli-sa.github.io/portfolio1/>) from github
 - Confirm the page opens correctly
 
 - Scroll to the bottom of the page
@@ -215,7 +219,7 @@ Using Github Pages to host the deployed website can be found here:
   - Click on the footer links at the bottom of the page. And confirm that the links to facebook and instagram work open the correct pages.
 
 - Internal Webpages
-Type in https://heli-sa.github.io/portfolio1/ in Google chrome 
+Type in <https://heli-sa.github.io/portfolio1/> in Google chrome
 
   - Home page
       1. Menu Testing
@@ -223,8 +227,9 @@ Type in https://heli-sa.github.io/portfolio1/ in Google chrome
 
               From the Index.html page(Home page)
               Click on the footer links at the bottom of the page. And confirm that the links to Facebook and Instagram working correctly- need open the correct webpages
+  
+         - Gallery Page:
 
-          - Gallery Page:
              1. Confirm the page opens correctly.
              2. Scroll down the page
              3. Confirm the layout is aligned correctly
@@ -256,9 +261,10 @@ Type in https://heli-sa.github.io/portfolio1/ in Google chrome
 - Media Query was used along with flexbox to allow for responsive design of the website
 - Above the menu, there is a visual image which is red at the smallest screensize blue for tablet, and disappears for Desktop. At each step the styling for each element/class is checked within the relevant media-query
 
-
 ## Testing tools
+
 ---
+
 - Chrome DevTool Lighthouse
 - W3C Testing Tool
 
@@ -272,6 +278,7 @@ Type in https://heli-sa.github.io/portfolio1/ in Google chrome
 ## Validator V3 testing
 
 ***  
+
 - Each page must have valid and correct HTML- validation service w3
 
 [Homepage Errors](reference/testing/w3c/w3C_home_page_with_errors.png)
@@ -280,16 +287,22 @@ After fixing
 
 [Gallery Errors](reference/testing/w3c/w3c_gallery_with_errors.png)
 After fixing
-[Gallery](reference/testing/w3c/w3c_gallery_with_no_errors.png) 
+[Gallery](reference/testing/w3c/w3c_gallery_with_no_errors.png)
 
 [Contact Page](reference/testing/w3c/w3c_contact_fixed.png)
+
 ## Lighthouse testing performance & results
+
 ***
 Links to screenshots for lighthouse tests
+
 - [Homepage](reference/testing/lighthouse/lighthouse_index.png)
 - [Gallery](reference/testing/lighthouse/lighthouse_gallery.png)
 - [Contact](reference/testing/lighthouse/lighthouse_contactus.png)
 
- ## Credit
+## Credit
+
    ***
    Thank you to my mentor Ronan McClelland who supported me all this way with useful references and guides.
+
+[def]: assets/images/ferry2.png
