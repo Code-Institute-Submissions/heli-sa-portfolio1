@@ -13,15 +13,18 @@
   <header>
     <div>
       <img src="assets/images/ferry2.png" class ="hero-img" alt="The Sea">
-         
-      <div class="top-left">
-        <h1 id="logo">Contact Us</h1>
+       <div class="top-left">
+        <h1 id="logo">Saaremaa</h1>
       </div>
-    </div>
+    </di>
     <div class="top-right">
          <!--navbar-->
          <nav>
-          <ul id="menu">
+          <ul>
+         <!--navbar-->
+         <nav>
+
+          <ul>
               <li>
                   <a href="index.html">Home</a>
               </li>
@@ -36,48 +39,25 @@
     </div>
 
 </header>
+
   <section>
     <h4> A small Island in Baltic Sea, the land of slow living and being.</h4>
   </section>
   
-  <form class="form">
-    <h2>
-      Subscribe our monthly newsletter
-      </h2>
-    <table>
-      <tr>
-        <th>Please place your Contact Details</th>
-        <th></th>
-<!--- Added blank heading to remove error from W3C checker-->
-      </tr>
-      <tr>
-        <td><label for="fname">First Name</label></td>
-        <td>
-            <input type="text" id="fname" name="first_name" placeholder="Your name" required="required">
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <label for="lname">Last Name</label>
-        </td>
-        <td>
-          <input type="text" id="lname" name="last_name" placeholder="Last name" required="required">
-        </td>
-    </tr>
-    <tr> 
-      <td>
-        <label for="email">Email</label>
-      </td>
-      <td>
-        <input type="email" id="email" name="email" placeholder="Email" required="required">
-      </td>
-    </tr>
-   <tr>
-    <td></td>
-    <td><input type="submit" class="button" value="Submit"></td>
-  </tr>
-  </table>
+<form class="form">
+    <form method="POST" action="#">
+        <h2>Subscribe our monthly newsletter</i></h2>
+        <label for="fname">First Name</label>
+        <input class="text-input" id="fname" name="first_name" type="text" required>
+        
+        <label for="lname">Last Name</label>
+        <input class="text-input" id="lname" name="last_name" type="text" required>
+        
+        <label for="email">Email Address</label>
+        <input class="input" type="email" id="email" name="email_address" required>
+        <input class="button" type="submit" value="Subscribe">
   </form> 
+</form>
 
   
     <footer>

@@ -105,6 +105,9 @@ Color choice made by Inspired of [Estonia Flag](https://en.wikipedia.org/wiki/Fl
 
 - [Sample of color choices](https://www.color-hex.com/user/add-palette.php)
 
+Final Choice of Color palette
+[Colour Palatte](reference/color_palette/color_pallette.png)
+
 ## Free Fonts, Icons and Images
 
 ***
@@ -130,10 +133,10 @@ Color choice made by Inspired of [Estonia Flag](https://en.wikipedia.org/wiki/Fl
 ## Wireframe
 
 ***
-
-- [HomePage](reference/wireframe/home_page.png)
-- [Gallery](reference/wireframe/gallery_page.png)
-- [Contact](reference/wireframe/contact_page.png)
+*Desktop Wireframes
+- [HomePage](reference/wireframe/DesktopHomePage.png)
+- [Gallery](reference/wireframe/DesktopGalleryPage.png)
+- [Contact](reference/wireframe/DesktopContactPage.png)
 
 ## Reference Coding
 
@@ -233,57 +236,62 @@ ___
 - Media Query was used along with feedbox to allow for responsive design of the website
 - Above the menu, there is a visual image which is red at the smallest screensize blue for tablet, and disappears for Desktop. At each step the styling for each element/class is checked within the relevant media-query
 
-## Optimize Images For Web Without Losing Quality
 
-___
+## Technologies used within the project
+
+***
+
+- Optimize Images For Web Without Losing Quality
 
  Using for resizing, caching and compressing
    the images
 
 - <https://blog.scaleflex.com/>  
-tinypng
 
-## Lighthouse testing performance
+Used to take the screenshots about testing results- before fixing the errors and after fixing the errors
 
+- https://www.screenpresso.com/
 
+Used for color choices
 
+- https://www.color-hex.com/
+
+Image Compression for Websites
+TinyPNG
+## Deployment of Website
 ***
+Using Github. 
+> https://heli-sa.github.io/portfolio1/
 
 ## Validator V3 testing
 
 ***  
+- Each page must have valid and correct HTML- validation service w3
+
+[Homepage Errors](reference/testing/w3c/w3C_home_page_with_errors.png)
+After fixing
+[Homepage](/workspace/portfolio1/reference/testing/w3c/w3c_home_page_no_errors.png)
+
+[Gallery Errors](/workspace/portfolio1/reference/testing/w3c/w3c_gallery_with_errors.png)
+After fixing
+[Gallery](/workspace/portfolio1/reference/testing/w3c/w3c_gallery_with_no_errors.png) 
+
+[Contact Page](/workspace/portfolio1/reference/testing/w3c/w3c_contact_fixed.png)
+## Lighthouse testing performance & reesults
+***
+[Homepage](reference/testing/lighthouse/lighthouse_index.png)
+[Gallery](reference/testing/lighthouse/lighthouse_gallery.png)
+[Contact](reference/testing/lighthouse/lighthouse_contactus.png)
+
 
 ## <https://validator.w3.org/>  
 
-## Technologies
-
+## Test Script
 ***
-A list of technologies used within the project
 
-- [Screenpresso](https://www.screenpresso.com/)
 
-Used to take the screenshots about testing results- before fixing the errors and after fixing the errors
+### Action Expected Result
 
-- [Color-hex](https://www.color-hex.com/)
-
-Used for color choices
-
-- ``Deployment of Website
-Using Github Pages, the website can be found
-  - <https://heli-sa.github.io/portfolio1/>
-
-Deployment of Website
-Using Github Pages, the website can be found : https://heli-sa.github.io/portfolio1/
-
-- Each page must have valid and correct HTML- validation service w3
-
-**Test Script**
-
-- `need to finish!!!!!!!!!!!!!`
-
-## Action Expected Result
-
-***
 
 - Type in www. in chrome
     1. Page should load
@@ -301,9 +309,16 @@ are copied across all pages
 - Chrome DevTool Lighthouse
 - V3C Testing Tool
 
+
+
+<https://validator.w3.org/>
+
+[def]: ttps://www.color-hex.com/user/add-palette.php
+
+
+﻿
+DevTools failed to load source map: Could not load content for chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/sourceMap/chrome/scripts/iframe_form_check.map: System error: net::ERR_BLOCKED_BY_CLIENT
+
 lighthouse:1          Failed to load resource: the server responded with a status of 404 (
   192.168.179.70 - - [13/Dec/2022 18:04:12] "GET /favicon.ico HTTP/1.1" 404 -
 
-   <https://validator.w3.org/>
-
-[def]: ttps://www.color-hex.com/user/add-palette.php
