@@ -126,7 +126,51 @@
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); 
 }
+
+.container {
+  width: 100%;
+  display: flex;
+  /* background: yellow; */
+  padding: 50px;
+  border-sizing: border-box;
+  height: 100%;
+  background-color:rgba(116, 169, 194, 0.556);
   
+}
+
+.internalcontainerL {
+  flex: 1;
+  /* background: red; */
+  padding: 30px;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  margin: 3px;
+  flex-wrap: wrap;
+  
+}
+
+.internalcontainerM {
+  flex: 1;
+  /*width: 320px; */
+  /* background: pink;  */
+  padding: 30px;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  margin: 3px;
+}
+
+.map {
+display: block;
+object-fit: cover;
+width: 100%;
+height: 100%; /* set to 'auto' in IE11 to avoid distortions */
+}
+
+.text-input{
+width: 300px;
+text-align: center;
+}
+
   /* Responsive layout - makes a two column-layout instead of three columns  </div>*/
   @media screen and (max-width: 1200px) {
     .column {
@@ -135,6 +179,9 @@
       max-width: 100%;
     }
 
+    .container{
+      flex-direction:column;
+    }
 
     h1 {
       flex:auto;
@@ -166,6 +213,10 @@
       -ms-flex: 100%;
       flex: 100%;
       max-width: 100%;
+      
+    }
+    .container{
+      flex-direction:column;
     }
     h1 { 
       flex:auto;
@@ -180,12 +231,12 @@
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2); 
     }
-   .form {
+   /* .form {
     display: -ms-flexbox;
     width: 100%;
     height: 300px;
     justify-content: space-between;
-   }
+   } */
 }
 
 
@@ -225,10 +276,10 @@
 
     form { 
       display:-ms-flexbox;
-      background-color: rgba(116, 169, 194, 0.556);
-      background-size:cover;
-      padding-top: 80px;
-      padding-bottom: 80px;
+      /* background-color: rgba(116, 169, 194, 0.556);
+      background-size:cover; */
+      /* padding-top: 80px;
+      padding-bottom: 80px; */
   }
 
     input,textarea{
@@ -264,7 +315,7 @@
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;
-        width: 25%;
+        width: 140px;
     }
       
       .button:hover {
