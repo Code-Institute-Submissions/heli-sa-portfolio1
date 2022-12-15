@@ -28,7 +28,7 @@ In menu you can find the link to subscribe the latest news about life and events
   - At the top left is an image of website page name
   - All pages have a same header background image
     - [Header Image](assets/images/ferry2.png)
-
+    
   - Footer with responsive social media links
 
     - [Facebook](https://www.facebook.com/visitestonia/")
