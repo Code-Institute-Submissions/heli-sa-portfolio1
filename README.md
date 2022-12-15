@@ -68,7 +68,7 @@ In menu you can find the link to subscribe the latest news about life and events
       - divided vertically in 3 different columns  
 
          1. First column -  Saaremaa Tourist Information Centre
-         2. Second column - image  [map of Estonia](assets/images/map-saaremaa.jpg)
+         2. Second column - image  [map of Estonia](assets/images/map.jpg)
          3. Third column - useful links
     - Footer - including links to social media and copyright
 
@@ -110,11 +110,10 @@ Final Choice of Color palette
 
 ## Free Fonts, Icons and Images
 
+Fonts chosen: Oswald and Lato
 ***
-
 - <https://fonts.google.com>
- @import url('https://fonts.googleapis.com/css2?family=Lato:wght@350&family=Oswald&display=swap');
-- <https://fontawesome.com>
+ - <https://fontawesome.com>
 - <https://stock.adobe.com>
 -<https://www.freepik.com/free-photos-vectors/saaremaa>
 - Personal photo collection
@@ -127,8 +126,7 @@ Final Choice of Color palette
 
   - [weather and webcam](https://www.meteoblue.com/en/weather/webcams/)
 
-  kuressaare_estonia_590939
-  - <https://www.skylinewebcams.com/en/webcam/estonia/saaremaa/kuressaare/deer-cam.html>
+  - [Deer Cam](https://www.skylinewebcams.com/en/webcam/estonia/saaremaa/kuressaare/deer-cam.html)
 
 ## Wireframe
 
