@@ -47,28 +47,28 @@ In menu you can find the link to subscribe the latest news about life and events
     - Banner- It is island of Estonia in the Baltic sea, populated with circa 31.000 inhabitants
     - First Section is divided vertically in 3 different columns:
       1. first column- some reasons to go to Saaremaa
-      2. second column- image [wooden viking sculpture](workspace/portfolio1/assets/images/viking.jpg)
+      2. second column- image [wooden viking sculpture](assets/images/viking.jpg)
       3. third column- interesting facts
     - Banner- A small Island in Baltic Sea, the land of slow living and being
     - Second section divided vertically in 3 different columns
 
        1. first column- Interesting facts, where to go what to do
 
-       2. Second column- image [Ice Race](workspace/portfolio1/assets/images/race.jpg)
+       2. Second column- image [Ice Race](assets/images/race.jpg)
 
        3. Third column- hints about activities and spas
     - Banner- "On the island 98% is Ethnic Estonian"
     - Third section- divided vertically in 3 different columns.
 
       1. First column- History
-      2. Second column- image [Kuressaare castle](workspace/portfolio1/assets/kuressaare_castle.jpg)  
+      2. Second column- image [Kuressaare castle](assets/kuressaare_castle.jpg)  
       3. Third column- History
     - Banner- "A land created by giants and influenced by viking culture"
     - Fourth section
       - divided vertically in 3 different columns  
 
          1. First column -  Saaremaa Tourist Information Centre
-         2. Second column - image  [map of Estonia](workspace/portfolio1/assets/map-saaremaa.jpg)
+         2. Second column - image  [map of Estonia](assets/map-saaremaa.jpg)
          3. Third column - useful links
     - Footer - including links to social media and copyright
 
@@ -275,13 +275,13 @@ Using Github.
 
 [Homepage Errors](reference/testing/w3c/w3C_home_page_with_errors.png)
 After fixing
-[Homepage](/workspace/portfolio1/reference/testing/w3c/w3c_home_page_no_errors.png)
+[Homepage](reference/testing/w3c/w3c_home_page_no_errors.png)
 
-[Gallery Errors](/workspace/portfolio1/reference/testing/w3c/w3c_gallery_with_errors.png)
+[Gallery Errors](reference/testing/w3c/w3c_gallery_with_errors.png)
 After fixing
-[Gallery](/workspace/portfolio1/reference/testing/w3c/w3c_gallery_with_no_errors.png) 
+[Gallery](reference/testing/w3c/w3c_gallery_with_no_errors.png) 
 
-[Contact Page](/workspace/portfolio1/reference/testing/w3c/w3c_contact_fixed.png)
+[Contact Page](reference/testing/w3c/w3c_contact_fixed.png)
 ## Lighthouse testing performance & results
 ***
 [Homepage](reference/testing/lighthouse/lighthouse_index.png)
