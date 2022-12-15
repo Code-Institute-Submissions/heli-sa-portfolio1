@@ -21,7 +21,7 @@ In menu you can find the link to subscribe the latest news about life and events
 
 ### Website Site Map and Pages ###
 
-- #### Each page including
+- #### Each page contains
 
   - At the top right of each pages is a responsive menu for navigate through the all website pages
 
@@ -68,13 +68,13 @@ In menu you can find the link to subscribe the latest news about life and events
       - divided vertically in 3 different columns  
 
          1. First column -  Saaremaa Tourist Information Centre
-         2. Second column - image  [map of Estonia](assets/images/map.jpg)
+         2. Second column - image  [Map of Estonia](assets/images/map.jpg)
          3. Third column - useful links
     - Footer - including links to social media and copyright
 
 - #### *Gallery* – a selection of images about the island
 
-  - All photos can point and zoom out
+  - All photos can be selected and zoomed out
 
 - #### *Contact Us* – sign up to our newsletter today
 
@@ -84,15 +84,17 @@ In menu you can find the link to subscribe the latest news about life and events
 
 - #### *Footer*-  which is present on all pages contains links to social media and Copyright &copy 2022 Heli Saarts
 
-## Used links
-
-for find information for home page
-
+## Useful links
 ---
 
 - <https://www.visitestonia.com/en/where-to-go/islands>
 - <https://www.tripadvisor.co.uk/Attractions-g277795-Activities-Saaremaa_Saare_County.html>
 - <https://www.britannica.com/place/Saaremaa>
+
+- Weather and livecams
+
+  - [Weather](https://www.meteoblue.com/en/weather/webcams/)
+  - [Deer Cam](https://www.skylinewebcams.com/en/webcam/estonia/saaremaa/kuressaare/deer-cam.html)
 
 ## Choice of Colours
 
@@ -107,7 +109,6 @@ Color choice made by Inspired of [Estonia Flag](https://en.wikipedia.org/wiki/Fl
 Final Choice of Color palette
 [Color Pallette](reference/color_palette/color_pallette.png)
 
-
 ## Free Fonts, Icons and Images
 
 Fonts chosen: Oswald and Lato
@@ -117,17 +118,6 @@ Fonts chosen: Oswald and Lato
 - <https://stock.adobe.com>
 -<https://www.freepik.com/free-photos-vectors/saaremaa>
 - Personal photo collection
-
-## Reference Contents
-
-***
-
-- Weather and livecams
-
-  - [weather and webcam](https://www.meteoblue.com/en/weather/webcams/)
-
-  - [Deer Cam](https://www.skylinewebcams.com/en/webcam/estonia/saaremaa/kuressaare/deer-cam.html)
-
 ## Wireframe
 
 ***
@@ -141,7 +131,7 @@ Mobile Wireframes
 - [Gallery](reference/wireframe/MobileGalleryPage.png)
 - [Contact](reference/wireframe/MobileContactPage.png)
 
-## Reference Coding
+## Coding References
 
 ***
 
@@ -155,21 +145,13 @@ Mobile Wireframes
 - [scrimba](https://scrimba.com/learn/design)
 - [whatimarkdown](https://whatismarkdown.com/category/)
 
-## Development Tools
-
-***
-
-- The project was developed using the following
-  - Gitpod with Visual Studio Code Editor
-  - Git and Github were used to manage version control
-
 ## Manual tesing- UI
 
 ___
 
-- README in GitHub repository is describing the project
+- README in GitHub repository describing the project
 
-- Must be used Code Institute Template
+- Code Institute Template with Gitpod
 
 - Visually all pages must have a correct layout and readable text
 
@@ -187,7 +169,7 @@ ___
 
 ### `Short descriptive steps`
 
-- Open website: URL from github
+- Open website: (https://heli-sa.github.io/portfolio1/) from github
 - Confirm the page opens correctly
 
 - Scroll to the bottom of the page
@@ -239,17 +221,16 @@ ___
 - Media Query was used along with feedbox to allow for responsive design of the website
 - Above the menu, there is a visual image which is red at the smallest screensize blue for tablet, and disappears for Desktop. At each step the styling for each element/class is checked within the relevant media-query
 
-
-## Technologies used within the project
+## Development Tools
 
 ***
 
-- Optimize Images For Web Without Losing Quality
-
- Using for resizing, caching and compressing
-   the images
-
-- <https://blog.scaleflex.com/>  
+- The project was developed using the following
+  - Gitpod with Visual Studio Code Editor
+  - Git and Github were used to manage version control
+  - Optimize Images For Web Without Losing Quality
+- (https://blog.scaleflex.com/)  
+- (https://tinypng.com/)
 
 Used to take the screenshots about testing results- before fixing the errors and after fixing the errors
 
@@ -259,11 +240,9 @@ Used for color choices
 
 - https://www.color-hex.com/
 
-Image Compression for Websites
-TinyPNG
 ## Deployment of Website
 ***
-Using Github. 
+Using Github Pages to host the deployed website can be found here:
 > https://heli-sa.github.io/portfolio1/
 
 ## Validator V3 testing
@@ -291,7 +270,6 @@ After fixing
 
 ### Action Expected Result
 
-
 - Type in www. in chrome
     1. Page should load
     2. Page should scroll down the page the following items should be present
@@ -306,9 +284,7 @@ are copied across all pages
 ## Testing tools
 ---
 - Chrome DevTool Lighthouse
-- V3C Testing Tool
-
-
+- W3C Testing Tool
 
 <https://validator.w3.org/>
 
