@@ -31,9 +31,9 @@ In menu you can find the link to subscribe the latest news about life and events
     
   - Footer with responsive social media links
 
-    - [Facebook](https://www.facebook.com/visitestonia/")
+    - [Facebook](https://www.facebook.com/visitestonia/)
 
-    - [Instagram](https://www.instagram.com/visitestonia/?hl=en")
+    - [Instagram](https://www.instagram.com/visitestonia/?hl=en)
 
     - Copyright &copy 2022 Heli Saarts
 
