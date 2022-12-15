@@ -47,14 +47,14 @@ In menu you can find the link to subscribe the latest news about life and events
     - Banner- It is island of Estonia in the Baltic sea, populated with circa 31.000 inhabitants
     - First Section is divided vertically in 3 different columns:
       1. first column- some reasons to go to Saaremaa
-      2. second column- image [wooden viking sculpture](assets/images/viking.jpg)
+      2. second column- image [Swamp Road](assets/images/swamp-road.jpg)
       3. third column- interesting facts
     - Banner- A small Island in Baltic Sea, the land of slow living and being
     - Second section divided vertically in 3 different columns
 
        1. first column- Interesting facts, where to go what to do
 
-       2. Second column- image [Sking](assets/images/ski.jpg)
+       2. Second column- image [Skiing](assets/images/ski.jpg)
 
        3. Third column- hints about activities and spas
     - Banner- "On the island 98% is Ethnic Estonian"
